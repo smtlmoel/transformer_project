@@ -3,7 +3,7 @@ import torch
 
 from modelling.attention import Attention
 
-def test_linear_layer():
+def test_attention_layer():
     # Set seed for reproducibility
     seed = 42
     torch.manual_seed(seed)
@@ -18,7 +18,7 @@ def test_linear_layer():
     mask = torch.ones((16, 10))
 
     # Compute the expected and actual outputs
-    expected = torch.nn.functional.softmax((query @ key.transpose(1,2) / np.sqrt(query.shape[-1]) + torch.zeros((16, 10, 10))), dim=2) @ value
+    expected = torch.nn.functional.softmax((query @ key.transpose(1,2) / np.sqrt(query.shape[-1]) + torch.zeros((16, 10)).unsqueeze(1)), dim=2) @ value
     actual = attention_layer(query, key, value, mask)
 
     assert torch.allclose(expected, actual)
