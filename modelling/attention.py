@@ -7,14 +7,8 @@ class Attention(nn.Module):
         super().__init__()
         self.mask_future = mask_future
 
-        #self.output_linear = nn.Linear(d_model, d_model)
-
     def _attention(self, q, k, v, mask):        
         return nn.functional.softmax((q @ k.transpose(1,2) / np.sqrt(q.shape[-1]) + mask), dim=2) @ v
-    
-    #def _linear_output(self, attn: torch.Tensor, B: int):
-    #    out = attn.transpose(1,2).contiguous().view(B, -1, self.d_model)
-    #    return self.output_linear(out)
     
     def forward(self, query: torch.Tensor, key: torch.Tensor, value: torch.Tensor, mask: torch.Tensor=None):
         B_Q, N_Q, C_Q = query.shape
