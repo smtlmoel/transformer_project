@@ -14,12 +14,13 @@ def test_tokenizer():
     test_text = "Machine learning is a subset of artificial intelligence."
 
     tokenizer_one = CharBPETokenizer()
-    tokenizer_one.train(corpus, vocab_size=295)
+    tokenizer_one.train('test/text.txt', vocab_size=64)
     encoded_one = tokenizer_one.encode(test_text)
 
     tokenizer_two = BPETokenizer(vocab_size=64)
     tokenizer_two.train(corpus)
     encoded_two = tokenizer_two.tokenize(test_text)
 
-    print(encoded_one)
+    print(encoded_one.tokens)
     print(encoded_two)
+    print()

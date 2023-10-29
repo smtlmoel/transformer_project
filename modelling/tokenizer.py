@@ -40,7 +40,9 @@ class BPETokenizer():
         unique_words_set = set()
         for sentence in corpus:
             words_in_sentence = sentence.split()
-            for word in words_in_sentence:
+            for i, word in enumerate(words_in_sentence):
+                word = word + '</w>'
+                words_in_sentence[i] = word
                 self.word_freqs[word] += 1
             unique_words_set = unique_words_set.union(set(words_in_sentence))
         unique_words_list = list(unique_words_set)
@@ -69,8 +71,12 @@ class BPETokenizer():
         
     def tokenize(self, text: str):
         splits = [[l for l in word] for word in text.split()]
+        for i, split in enumerate(splits):
+            split.append('</w>')
+            splits[i] =  split
         for pair, merge in self.merges.items():
             for idx, split in enumerate(splits):
+                
                 i = 0
                 while i < len(split) - 1:
                     if split[i] == pair[0] and split[i + 1] == pair[1]:
