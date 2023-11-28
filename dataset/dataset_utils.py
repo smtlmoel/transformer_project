@@ -22,7 +22,7 @@ def clean_sentence(sentence: str):
     cleaned_html = remove_html_tags(cleaned_url)
     cleaned_text = remove_not_whitelisted_chars(cleaned_html)
 
-    return cleaned_text
+    return cleaned_text.lower()
 
 def clean_pair(pair: dict, max_ratio: float = 5.0, min_len: int = 5, max_len: int = 64):
     de = pair['de']

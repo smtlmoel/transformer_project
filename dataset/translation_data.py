@@ -13,9 +13,9 @@ class TranslationDataset(Dataset):
         super().__init__()
 
         self.mode = mode
-        self.data = self.load_data()
+        # self.data = self.load_data()
         self.tokenizer = tokenizer
-        self.tokenizer.train('data/cleaned_train_pairs.json')
+        self.tokenizer.train('resources/cleaned_train_pairs.json')
 
     def load_data(self): 
         dataset = load_dataset("wmt17", "de-en")
@@ -66,4 +66,8 @@ if __name__ == '__main__':
     tr_ds = TranslationDataset(tk, 'train')
     te_ds = TranslationDataset(tk, 'test')
     va_ds = TranslationDataset(tk, 'validation')
+
+    torch.save(tr_ds, 'resources/train_dataset.pth')
+    torch.save(te_ds, 'resources/test_dataset.pth')
+    torch.save(va_ds, 'resources/validation_dataset.pth')
          
