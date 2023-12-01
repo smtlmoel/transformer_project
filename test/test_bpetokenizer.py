@@ -1,6 +1,6 @@
 from tokenizers.implementations import CharBPETokenizer
 
-from modelling.tokenizer import BPETokenizer
+from modelling.BPETokenizer import BPETokenizer
 
 def test_tokenizer():
     corpus = [

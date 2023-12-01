@@ -1,0 +1,4 @@
+y = ((x - mhy) / sqrt(sigma^2 + epsilon)) * gamma + beta
+
+Normalization is used to make the training more stable and converge faster, because
+models with features on diferent scales take longer to train.

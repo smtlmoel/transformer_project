@@ -1,0 +1,6 @@
+Equation: FFN(x) = max(0, x * W1 + b1) * W2 + b2
+
+The poinwise feed-forward layer is a non-linear transformation layer. It allows the model to
+capture and process complex informaation and relations at each position independently.
+Therefore it is an key element in various sequence to sequence tasks. So the goal is to
+avoid internal covariate shifts.
