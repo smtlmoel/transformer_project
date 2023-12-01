@@ -6,3 +6,4 @@ Questions:
 1. On which corpus sould the BPETokenizer be trained?
 2. Should train, test, val be trained on the same corpus?
 3. How to use vocab and merges in from_pretrained method?
+4. How to implement MultiHeadAttention?
