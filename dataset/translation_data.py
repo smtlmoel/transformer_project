@@ -13,7 +13,8 @@ class TranslationDataset(Dataset):
         super().__init__()
 
         self.mode = mode
-        # self.data = self.load_data()
+        #if data file not exist
+        self.data = self.load_data()
         self.tokenizer = tokenizer
         self.tokenizer.train('resources/cleaned_train_pairs.json')
 

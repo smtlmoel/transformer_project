@@ -7,3 +7,8 @@ Questions:
 2. Should train, test, val be trained on the same corpus?
 3. How to use vocab and merges in from_pretrained method?
 4. How to implement MultiHeadAttention?
+5. In from_pretrained specify special tokens again?
+6. What should we done in case of the Word embeddings? (Practical 6)
+7. Get a conformation of the proofs.
+8. Is also one dropout layer possible
+9. Pointwise FF as a seperate nn.Module?

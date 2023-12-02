@@ -25,7 +25,7 @@ class Tokenizer():
         #merges_dict = {tuple(merge.split()): idx for idx, merge in enumerate(char_bpe_tokenizer.model)}
 
         self.gpt2_tokenizer = GPT2Tokenizer(vocab_file='resources/vocab.json',
-                                            merges_file='resources/merges.txt',).from_pretrained(pretrained_model_name_or_path='gpt2',
+                                            merges_file='resources/merges.txt').from_pretrained(pretrained_model_name_or_path='gpt2',
                                                                                                 unk_token='[UNK]',
                                                                                                 bos_token='[BOS]',
                                                                                                 eos_token='[EOS]',
