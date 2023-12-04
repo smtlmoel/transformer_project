@@ -107,9 +107,7 @@ def test_multi_head_attention(mha_layer, query, value, attention_mask, expected)
     # Load pre-defined state dictionary into the multi-head attention layer
     mha_layer.load_state_dict(STATE_DICT)
 
-    t1 = mha_layer(query, value, value, attention_mask)
-
     assert torch.allclose(
-        t1,
+        mha_layer(query, value, value, attention_mask),
         expected
     )

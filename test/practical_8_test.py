@@ -1,3 +1,5 @@
+"""Decoder layer layer tests."""
+
 import os
 import sys
 
@@ -7,9 +9,16 @@ import torch
 # Add the parent directory to the system path for importing modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from modelling.functional import BaseTransformerLayer
+from modelling.functional import TransformerDecoderLayer
 
 # Define test data for hidden states and attention masks
+ENCODER = torch.tensor([
+    [[0.0349, 0.3211, 1.5736, -0.8455],
+     [0.0000, 0.0000, 0.0000, 0.0000]],
+    [[-1.4181, 0.8963, 0.0499, 2.2667],
+     [1.1790, -0.4345, -1.3864, -1.2862]]
+])
+
 INPUT = torch.tensor([
     [[1.9269, 1.4873, 0.9007, -2.1055],
      [0.6784, -1.2345, -0.0431, -1.6047],
@@ -20,21 +29,23 @@ INPUT = torch.tensor([
 ])
 
 ATTENTION_MASK = torch.tensor([[1, 1, 1], [1, 1, 0]])
+ENCODER_ATTENTION_MASK = torch.tensor([[1, 0], [1, 1]])
 
 # Define test data for attention outputs (feature_dim is the hidden dimension of the position wise feed forward layer)
 TEST_DATA = [
     (
-        BaseTransformerLayer(input_dim=INPUT.size(-1), num_heads=2, feature_dim=6, dropout=0.0),
+        TransformerDecoderLayer(input_dim=INPUT.size(-1), num_heads=2, feature_dim=6, dropout=0.0),
         INPUT,
+        ENCODER,
         ATTENTION_MASK,
+        ENCODER_ATTENTION_MASK,
         torch.tensor([
-            [[0.7562403082847595, -1.4328937530517578, 1.3348004817962646, -0.6581472754478455],
-             [-0.3241388201713562, -0.8887178897857666, 1.8732272386550903, -0.6603702306747437],
-             [0.4691855013370514, -1.8848323822021484, 0.8884169459342957, 0.5272297859191895]],
-            [[1.4459928274154663, -1.6236248016357422, 0.30913472175598145, -0.1315028816461563],
-             [0.5192930102348328, 1.3882019519805908, -1.5955982208251953, -0.31189611554145813],
-             [0.0, 0.0, 0.0, 0.0]]
-        ])
+            [[0.5277771949768066, -0.6831410527229309, -1.5038819313049316, 1.6592463254928589],
+             [0.019549943506717682, -1.556483507156372, -0.2697664499282837, 1.806700348854065],
+             [0.11874647438526154, -1.1886216402053833, -0.8363272547721863, 1.9062020778656006]],
+            [[0.6821882128715515, 1.0878541469573975, -2.0129923820495605, 0.24294991791248322],
+             [-0.2659413814544678, 1.7737672328948975, 0.08458242565393448, -1.5924079418182373],
+             [0.0, 0.0, 0.0, 0.0]]])
     )
 ]
 
@@ -56,6 +67,22 @@ STATE_DICT = {
                                                             [-1.2956,  0.0503, -0.5855, -0.3900],
                                                             [0.9812, -0.6401, -0.4908,  0.2080],
                                                             [-1.1586, -0.9637, -0.3750,  0.8033]]),
+    "encoder_attention.query_transform.weight": torch.tensor([[-0.5185,  0.2386, -0.2698,  0.7868],
+                                                              [0.5452,  0.4966,  0.0391,  1.1982],
+                                                              [0.5210,  0.9590,  0.2510,  1.5091],
+                                                              [-1.0233, -0.4858, -0.4501, -1.4370]]),
+    "encoder_attention.key_transform.weight": torch.tensor([[-1.2401,  0.4892, -1.4914,  1.2044],
+                                                            [-0.1657,  0.5956, -1.7342,  1.7701],
+                                                            [-1.2637,  0.1204,  0.3262, -0.0555],
+                                                            [0.9559,  0.9009, -0.4066, -0.1088]]),
+    "encoder_attention.value_transform.weight": torch.tensor([[-0.9989,  0.2958,  0.1949,  1.6747],
+                                                              [-1.1031, -0.0502, -0.8032,  1.3265],
+                                                              [0.2166,  0.1638, -1.3553, -0.1537],
+                                                              [-0.1745,  0.5924,  0.7405,  0.2968]]),
+    "encoder_attention.output_transform.weight": torch.tensor([[0.3852,  0.1016, -0.7174, -1.0594],
+                                                               [0.2649, -0.5310,  1.1475, -1.8198],
+                                                               [-0.4023,  0.2074, -0.6569,  0.0991],
+                                                               [-0.5072, -0.9590, -0.8876, -1.8577]]),
     'feature_transformation.linear1.weight': torch.tensor([[-0.6284, -0.6438,  1.5350,  1.1490],
                                                            [0.2052,  0.2262, -1.7528, -0.3317],
                                                            [-1.5973, -1.6713, -0.0838,  0.3023],
@@ -71,24 +98,24 @@ STATE_DICT = {
     'layer_norm_1.weight': torch.tensor([1., 1., 1., 1.]),
     'layer_norm_1.bias': torch.tensor([0., 0., 0., 0.]),
     'layer_norm_2.weight': torch.tensor([1.1, 1.1, 1.1, 1.1]),
-    'layer_norm_2.bias': torch.tensor([0., 0., 0., 0.])
+    'layer_norm_2.bias': torch.tensor([0., 0., 0., 0.]),
+    'layer_norm_3.weight': torch.tensor([1.2, 1.2, 1.2, 1.2]),
+    'layer_norm_3.bias': torch.tensor([0., 0., 0., 0.])
 }
 
 
 # Multi-head Attention Layer Tests
 @pytest.mark.parametrize(
-    "layer, input, attention_mask, expected",
+    "layer, input, encoder, attention_mask, encoder_attention_mask, expected",
     TEST_DATA,
     ids=["encoder_layer"]
 )
-def test_layer(layer, input, attention_mask, expected):
+def test_layer(layer, input, encoder, encoder_attention_mask, attention_mask, expected):
     """Test the Multi-head Attention layer."""
     # Load pre-defined state dictionary into the multi-head attention layer
     layer.load_state_dict(STATE_DICT)
 
-    t1 = layer(input, attention_mask)
-
     assert torch.allclose(
-        t1,
+        layer(input, encoder, encoder_attention_mask, attention_mask),
         expected
     )

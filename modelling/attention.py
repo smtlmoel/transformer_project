@@ -39,26 +39,21 @@ class MultiHeadAttention(nn.Module):
         self.key_transform = nn.Linear(d_model, d_model, bias=False)
         self.value_transform = nn.Linear(d_model, d_model, bias=False)
         self.output_transform = nn.Linear(d_model, d_model, bias=False)
-
+    
     def _mask_attention(self, Q: Tensor, K: Tensor, V: Tensor, mask: Tensor):
-        H = Q.size(1)
         N_Q = Q.size(2)
         N_K = K.size(2)
 
-        future_mask = torch.zeros((H, N_Q, N_K))
-        
+        scaled_dot_product = torch.matmul(Q, K.permute(0, 1, 3, 2)) / np.sqrt(self.d_key)
+
+        scaled_dot_product = scaled_dot_product.masked_fill(mask.unsqueeze(1).unsqueeze(2)==0, -np.inf)
+
         if self.mask_future:
-            future_mask = torch.full((N_Q, N_K), -np.Infinity)
+            future_mask = torch.ones((N_Q, N_K))
             future_mask = torch.triu(future_mask, diagonal=1).unsqueeze(0).unsqueeze(1)
-            
-        combined_mask = future_mask.masked_fill(~mask.unsqueeze(2).unsqueeze(1).to(torch.bool), -np.Infinity)
+            scaled_dot_product = scaled_dot_product.masked_fill(future_mask==1, -np.inf)
 
-        scaled_dot = (Q @ K.permute(0, 1, 3, 2) / np.sqrt(self.d_model))
-        scaled_dot.masked_fill(mask.unsqueeze(2).unsqueeze(1)==0, -np.inf)
-
-        # nn.functional.softmax(((Q @ K.permute(0, 1, 3, 2) / np.sqrt(self.d_model)) + combined_mask), dim=-1) @ V
-
-        return nn.functional.softmax(scaled_dot, dim=-1) @ V
+        return torch.softmax(scaled_dot_product, dim=-1) @ V
     
     def _linear_projection(self, query: Tensor, key: Tensor, value: Tensor, B: int):
         Q = self.query_transform(query).view(B, -1, self.num_heads, self.d_key).permute(0, 2, 1, 3)
