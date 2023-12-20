@@ -49,6 +49,6 @@ class TransformerDecoderLayer(nn.Module):
         _x = self.self_attention(x, x, x, mask)
         trg = self.layer_norm_1(x + self.layer_dropout(_x))
         y = self.encoder_attention(trg, encoder, encoder, encoder_mask)
-        x = self.layer_norm_3(trg + self.layer_dropout(y))
+        x = self.layer_norm_2(trg + self.layer_dropout(y))
         _x = self.feature_transformation(x)
         return self.layer_norm_3(x + self.layer_dropout(_x))

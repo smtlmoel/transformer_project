@@ -11,4 +11,4 @@ Questions:
 7. Get a conformation of the proofs.
 8. Is also one dropout layer possible
 9. Pointwise FF as a seperate nn.Module?
-10. What is wrong with Encoder and Decoder Layer?
+10. Floating point differences in test 8?

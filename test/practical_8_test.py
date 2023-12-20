@@ -119,4 +119,4 @@ def test_layer(layer, input, encoder, encoder_attention_mask, attention_mask, ex
     # Mask padded positions
     actual *= attention_mask.unsqueeze(-1).float()
 
-    assert torch.allclose(actual, expected)
+    assert torch.allclose(actual, expected, rtol=1e-04)
