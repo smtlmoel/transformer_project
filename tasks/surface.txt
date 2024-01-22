@@ -1,14 +1,10 @@
-import sys
-sys.path.append('D:\\Master\\Implementing Transformer\\transformer_project\\modelling')
-from tokenizer import BPETokenizer
-
 Questions:
-1. On which corpus sould the BPETokenizer be trained?
-2. Should train, test, val be trained on the same corpus?
-3. How to use vocab and merges in from_pretrained method?
-5. In from_pretrained specify special tokens again?
-6. What should we done in case of the Word embeddings? (Practical 6)
-7. Get a conformation of the proofs.
-8. Is also one dropout layer possible
-9. Pointwise FF as a seperate nn.Module?
-10. Floating point differences in test 8?
+1. Explain special_token_map again where to add special tokens?
+2. Sequence length?
+3. target_input and target_output correct?
+4. Correctness test_8 had to add tolerance?
+5. Should we habe two embd and pos_enc and share weights or is one enough?
+6. What are the benefits for sharing weights in word embeddings?
+7. Can we use the LRSCheduler Class from pytorch? If yes can we access the _step_count?
+8. How to create the input mask?
+9. get_last_lr List or index 0?
