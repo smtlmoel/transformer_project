@@ -1,0 +1,1 @@
+Train less parameters, saves memory, less computation, only possible for similar languages
