@@ -44,7 +44,7 @@ class TranslationTokenizer():
                 for rule in merges_list:
                     f.write("%s\n" % rule)
 
-        self.gpt2_tokenizer = GPT2Tokenizer.from_pretrained("./resources/gpt2_from_pretrained")
+        self.gpt2_tokenizer: GPT2Tokenizer = GPT2Tokenizer.from_pretrained("./resources/gpt2_from_pretrained")
        
     def encode(self, text):
         if self.gpt2_tokenizer is None:
@@ -52,11 +52,11 @@ class TranslationTokenizer():
         return self.gpt2_tokenizer.encode(text)
     
     def encode_tokens(self, text):
-        if self.tokenizer_gpt2 is None:
+        if self.gpt2_tokenizer is None:
             raise Exception('Tokenizer is not trained.')
-        return self.tokenizer_gpt2.tokenize(text)
+        return self.gpt2_tokenizer.tokenize(text)
 
     def convert_tokens_to_ids(self, tokens):
-        if self.tokenizer_gpt2 is None:
+        if self.gpt2_tokenizer is None:
             raise Exception('Tokenizer is not trained.')
-        return self.tokenizer_gpt2.convert_tokens_to_ids(tokens)
+        return self.gpt2_tokenizer.convert_tokens_to_ids(tokens)

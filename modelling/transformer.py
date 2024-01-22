@@ -1,6 +1,6 @@
-from positional_encoding import PositionalEncoding
-from word_embedding import WordEmbedding
-from functional import BaseTransformerLayer, TransformerDecoderLayer
+from modelling.positional_encoding import PositionalEncoding
+from modelling.word_embedding import WordEmbedding
+from modelling.functional import BaseTransformerLayer, TransformerDecoderLayer
 
 import torch.nn as nn
 

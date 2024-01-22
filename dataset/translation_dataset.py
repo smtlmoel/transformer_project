@@ -6,8 +6,8 @@ from torch.utils.data import Dataset
 
 from datasets import load_dataset
 
-from translation_dataset_utils import clean_dataset
-from translation_tokenizer import TranslationTokenizer
+from dataset.translation_dataset_utils import clean_dataset
+from dataset.translation_tokenizer import TranslationTokenizer
 
 
 class TranslationDataset(Dataset):
@@ -63,7 +63,7 @@ class TranslationDataset(Dataset):
             with open(output_path_json, 'w', encoding='utf-8') as file:
                 json.dump(cleaned_dataset, file, ensure_ascii=False)
         else:
-            with open(output_path_json, 'r') as file:
+            with open(output_path_json, 'r', encoding='utf-8') as file:
                 cleaned_dataset = json.load(file)
 
         return cleaned_dataset
