@@ -3,8 +3,7 @@ Questions:
 2. Sequence length?
 3. target_input and target_output correct?
 4. Correctness test_8 had to add tolerance?
-5. Should we habe two embd and pos_enc and share weights or is one enough?
+5. Should we have two embd and pos_enc or is one with share weights enough?
 6. What are the benefits for sharing weights in word embeddings?
-7. Can we use the LRSCheduler Class from pytorch? If yes can we access the _step_count?
-8. How to create the input mask?
-9. get_last_lr List or index 0?
+7. How to create the input mask?
+8. get_last_lr return List or index 0?
