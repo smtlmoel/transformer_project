@@ -1,9 +1,15 @@
-import math
 import torch
-
 import torch.nn as nn
+import math
 
 class PositionalEncoding(nn.Module):
+    """
+    Positional Encoding module to add positional information to input sequences.
+
+    Args:
+        d_model (int): Dimensionality of the model.
+        seq_len (int): Length of the input sequences.
+    """
     def __init__(self, d_model, seq_len) -> None:
         super().__init__()
         pe = torch.zeros(seq_len, d_model)
@@ -18,5 +24,14 @@ class PositionalEncoding(nn.Module):
 
         self.register_buffer("pe", pe)
 
-    def forward(self, x: torch.Tensor):
-        return x + self.pe[:, : x.size(1)].requires_grad_(False)
+    def forward(self, input: torch.Tensor):
+        """
+        Forward pass of the PositionalEncoding module.
+
+        Args:
+            input (torch.Tensor): Input tensor.
+
+        Returns:
+            torch.Tensor: Tensor with positional encoding added to the input.
+        """
+        return input + self.pe[:, : input.size(1)].requires_grad_(False)

@@ -3,19 +3,39 @@ import torch
 from torch import Tensor
 import torch.nn as nn
 
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
 class Attention(nn.Module):
+    """
+    Attention mechanism module.
+
+    Args:
+        mask_future (bool): Whether to mask future tokens during attention calculation.
+    """
     def __init__(self, mask_future=False) -> None:
         super().__init__()
         self.mask_future = mask_future
 
-    def _attention(self, q, k, v, mask):        
+    def _attention(self, q, k, v, mask):   
         return nn.functional.softmax((q @ k.transpose(1,2) / np.sqrt(q.shape[-1]) + mask), dim=-1) @ v
     
-    def forward(self, query: torch.Tensor, key: torch.Tensor, value: torch.Tensor, mask: torch.Tensor=None):
+    def forward(self, query: torch.Tensor, key: Tensor, value: Tensor, mask: Tensor=None):
+        """
+        Forward pass of the Attention module.
+
+        Args:
+            query (torch.Tensor): Query tensor.
+            key (torch.Tensor): Key tensor.
+            value (torch.Tensor): Value tensor.
+            mask (torch.Tensor): Mask tensor for attention calculation.
+
+        Returns:
+            torch.Tensor: Result of the attention mechanism.
+        """
         B_Q, N_Q, C_Q = query.shape
         B_K, N_K, C_K = key.shape
 
-        future_mask = torch.zeros((N_Q, N_K))
+        future_mask = torch.zeros((N_Q, N_K)).to(device)
         
         if self.mask_future:
             future_mask = torch.full((N_Q, N_K), -np.Infinity)
@@ -23,11 +43,18 @@ class Attention(nn.Module):
 
         combined_mask = future_mask.masked_fill(~mask.unsqueeze(1).to(torch.bool), -np.Infinity)
 
-        # attn = self._attention(query, key, value)
         return self._attention(query, key, value, combined_mask)
     
 
 class MultiHeadAttention(nn.Module):
+    """
+    Multi-head attention mechanism module.
+
+    Args:
+        d_model (int): Dimensionality of the model.
+        num_heads (int): Number of attention heads.
+        mask_future (bool): Whether to mask future tokens during attention calculation.
+    """
     def __init__(self, d_model, num_heads=1, mask_future=False) -> None:
         super().__init__()
         self.mask_future = mask_future
@@ -49,7 +76,7 @@ class MultiHeadAttention(nn.Module):
         scaled_dot_product = scaled_dot_product.masked_fill(mask.unsqueeze(1).unsqueeze(2)==0, -np.inf)
 
         if self.mask_future:
-            future_mask = torch.ones((N_Q, N_K))
+            future_mask = torch.ones((N_Q, N_K)).to(device)
             future_mask = torch.triu(future_mask, diagonal=1).unsqueeze(0).unsqueeze(1)
             scaled_dot_product = scaled_dot_product.masked_fill(future_mask==1, -np.inf)
 
@@ -66,6 +93,18 @@ class MultiHeadAttention(nn.Module):
         return self.output_transform(out)
     
     def forward(self, query: Tensor, key: Tensor, value: Tensor, mask: Tensor=None):
+        """
+        Forward pass of the MultiHeadAttention module.
+
+        Args:
+            query (torch.Tensor): Query tensor.
+            key (torch.Tensor): Key tensor.
+            value (torch.Tensor): Value tensor.
+            mask (torch.Tensor): Mask tensor for attention calculation.
+
+        Returns:
+            torch.Tensor: Result of the multi-head attention mechanism.
+        """
         B = query.size(0)
         Q, K, V = self._linear_projection(query, key, value, B)
         attn = self._mask_attention(Q, K, V, mask)
