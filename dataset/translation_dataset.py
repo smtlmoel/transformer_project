@@ -11,6 +11,18 @@ from dataset.translation_tokenizer import TranslationTokenizer
 
 
 class TranslationDataset(Dataset):
+    """
+    Dataset class for translation tasks.
+
+    Args:
+        mode (str): Mode of the dataset, one of 'train', 'validation', 'test', or 'generate'.
+        max_ratio (float): Maximum ratio between source and target sentences.
+        min_len (int): Minimum length of sequences to consider.
+        max_len (int): Maximum length of sequences to consider.
+        tokenizer_batch_size (int): Batch size for training the tokenizer.
+        tokenizer_vocab_size (int): Vocabulary size for the tokenizer.
+        generate_bpe_files (bool): Whether to generate Byte Pair Encoding (BPE) files.
+    """
     def __init__(self, mode, max_ratio: float = 5, min_len: int = 5, max_len: int = 64, tokenizer_batch_size: int = 2048, tokenizer_vocab_size: int = 50000, generate_bpe_files: bool = False) -> None:
         super().__init__()
 
@@ -29,7 +41,13 @@ class TranslationDataset(Dataset):
         self.tokenizer = TranslationTokenizer(self.tokenizer_batch_size, self.tokenizer_vocab_size)
         self.tokenizer.train(f'./resources/dataset/wmt17_cleaned_{self.mode}_pairs.txt', self.generate_bpe_files)
 
-    def load_data(self): 
+    def load_data(self):
+        """
+        Loads and cleans the dataset (only on the first run) based on the mode.
+
+        Returns:
+            list: List of dictionaries containing source and target sentences.
+        """
         dataset = load_dataset("wmt17", "de-en")
         loaded_data = None
         if self.mode == 'train':
@@ -69,6 +87,15 @@ class TranslationDataset(Dataset):
         return cleaned_dataset
     
     def _add_padding_or_truncate(self, tokenized_sentence):
+        """
+        Adds padding or truncates the tokenized sentence based on the maximum length.
+
+        Args:
+            tokenized_sentence (list): Tokenized sentence as list.
+
+        Returns:
+            list: Tokenized sentence with padding or truncated to maximum length.
+        """
         if len(tokenized_sentence) < self.max_len:
             left = self.max_len - len(tokenized_sentence)
             padding = [self.tokenizer.convert_tokens_to_ids("[PAD]")] * left
@@ -80,9 +107,24 @@ class TranslationDataset(Dataset):
 
     
     def __len__(self):
+        """
+        Returns the length of the dataset.
+
+        Returns:
+            int: Length of the dataset.
+        """
         return len(self.data)
 
     def __getitem__(self, idx):
+        """
+        Retrieves an item from the dataset at the specified index.
+
+        Args:
+            idx (int): Index of the item to retrieve.
+
+        Returns:
+            dict: Dictionary containing source, target input, and target output tensors.
+        """
         sample = self.data[idx]
 
         encoded_source_without_padding = self.tokenizer.encode(sample['de'])
@@ -106,6 +148,10 @@ class TranslationDataset(Dataset):
             'target_output': target_output_tensor
         }
     
+
+###########################
+#     Create datasets     #
+###########################
 
 from transformers import GPT2Tokenizer
 
