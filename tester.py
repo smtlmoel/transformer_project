@@ -6,8 +6,10 @@ import torch.nn.functional as F
 from tqdm import tqdm
 import torch
 import json
+import evaluate
 import torch.nn as nn
 from pathlib import Path
+from pprint import pprint
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -81,6 +83,16 @@ class TransformerTester(nn.Module):
         
         self.tokenizer_gpt2 = GPT2Tokenizer.from_pretrained('./resources/gpt2_from_pretrained')
 
+     def evaluate_bleu(self, results):
+          actual_translations = [triple['true_trg'] for triple in results]
+          generated_translations = [triple['generated_trg'] for triple in results]
+
+          bleu = evaluate.load("bleu")
+
+          blue_score = bleu.compute(predictions=generated_translations, references=actual_translations)
+
+          pprint(blue_score)
+
      def test(self):
           """
           Test the trained model on the test dataset and save the results to a JSON file.
@@ -90,18 +102,16 @@ class TransformerTester(nn.Module):
           pbar = tqdm(enumerate(self.test_data))
           for _, pair in pbar:
                src_input, trg_output = pair['source'].to(device), pair['target_output'].to(device)
-               e_mask = (src_input.unsqueeze(0) != self.src_pad_idx).int()
-               e_output = self.model.encode(src_input.unsqueeze(0).to(device), e_mask.to(device))
+               encoder_mask = (src_input.unsqueeze(0) != self.src_pad_idx).int()
+               encoder_output = self.model.encode(src_input.unsqueeze(0).to(device), encoder_mask.to(device))
 
                last_words = torch.LongTensor([self.src_pad_idx] * self.max_seq_len)
                last_words[0] = self.trg_sos_idx
-               cur_len = 1
-               last_word_id = -1
-               i = 0
+               current_length = 1
 
-               while i<range(self.max_seq_len) or last_word_id != self.trg_eos_idx or last_word_id != self.src_pad_idx:
-                    d_mask = (last_words.unsqueeze(0) != self.src_pad_idx).int()
-                    decoder_output = self.model.decode(e_output.to(device), e_mask.to(device), last_words.unsqueeze(0).to(device), d_mask.to(device))
+               for i in range(self.max_seq_len):
+                    decoder_mask = (last_words.unsqueeze(0) != self.src_pad_idx).int()
+                    decoder_output = self.model.decode(encoder_output.to(device), encoder_mask.to(device), last_words.unsqueeze(0).to(device), decoder_mask.to(device))
                     output = self.model.projection(decoder_output)
                     softmax_output = F.softmax(output, dim=-1)
                     output = torch.argmax(softmax_output, dim=-1)
@@ -109,9 +119,11 @@ class TransformerTester(nn.Module):
 
                     if i < self.max_seq_len - 1:
                          last_words[i + 1] = last_word_id
-                         cur_len += 1
+                         current_length += 1
 
-                    i+=1
+                    if last_word_id == self.src_pad_idx or last_word_id == self.trg_eos_idx:
+                         break
+
 
                decoded_output = last_words[1:].tolist()
 
@@ -123,10 +135,12 @@ class TransformerTester(nn.Module):
                true_output_decoded = self.tokenizer_gpt2.decode(tgt_data_filtered, skip_special_tokens=True)
                generated_output_decoded = self.tokenizer_gpt2.decode(decoded_output_filtered, skip_special_tokens=True)
 
-               results.append({'src': src_decoded, 'tgt_actual': true_output_decoded, 'tgt_generated': generated_output_decoded})
+               results.append({'src': src_decoded, 'true_trg': true_output_decoded, 'generated_trg': generated_output_decoded})
 
-          with open('./test_results.json', 'w') as json_file:
+          with open('./resources/results/test_results.json', 'w') as json_file:
                json.dump(results, json_file, indent=2)
+
+          self.evaluate_bleu(results=results)
 
 
 

@@ -114,14 +114,9 @@ class Transformer(nn.Module):
         Returns:
             torch.Tensor: Output tensor.
         """
-        src_emb = self.embedding(src)
-        trg_emb = self.embedding(trg)
-        src_pos = self.positional_encoding(src_emb)
-        trg_pos = self.positional_encoding(trg_emb)
-
-        enc = self.encoder(src_pos, src_mask)
-        dec = self.decoder(trg_pos, enc, src_mask, trg_mask)
-        return self.projection(dec)
+        x = self.encode(src, src_mask)
+        y = self.decode(x, src_mask, trg, trg_mask)
+        return self.projection(y)
     
     def encode(self, src, src_mask):
         """
@@ -136,8 +131,7 @@ class Transformer(nn.Module):
         """
         src1 = self.embedding(src)
         src2 = self.positional_encoding(src1)
-        src3 = self.encoder(src2, src_mask)
-        return src3
+        return self.encoder(src2, src_mask)
     
     def decode(self, src, src_mask, trg, trg_mask):
         """
@@ -154,5 +148,4 @@ class Transformer(nn.Module):
         """
         trg1 = self.embedding(trg)
         trg2 = self.positional_encoding(trg1)
-        trg3 = self.decoder(src, src_mask, trg2, trg_mask)
-        return trg3
+        return self.decoder(src, src_mask, trg2, trg_mask)
