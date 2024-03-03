@@ -1,0 +1,2667 @@
+[
+  {
+    "src": "28-j\u00e4hriger koch in san francisco mall tot aufgefunden",
+    "true_trg": "28-year-old chef found dead at san francisco mall[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er war ein freundlicher mensch mit einem gro\u00dfen herzen.",
+    "true_trg": "he was a kind spirit with a big heart.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er war der bruder, der mit dem strom schwamm.",
+    "true_trg": "he was the brother that went with the flow.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "jennifer aniston: ich werde immer in schubladen gesteckt",
+    "true_trg": "jennifer aniston: im always pigeonholed[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "jennifer aniston muss nicht immer perfekt oder erfolgreich sein.",
+    "true_trg": "jennifer aniston need not always be perfect or successful.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ehrlich gesagt, sind mir diese dinge eher schnuppe.",
+    "true_trg": "to be honest, i dont really give a damn about things like that.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der film l\u00e4uft bei uns ab dem 25. august.",
+    "true_trg": "the film is released in germany on 25 august.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "golfer langer erh\u00e4lt die sportpyramide",
+    "true_trg": "golfer langer is awarded the sport pyramid[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "seine erfahrungen auf dem pferd sind \u00fcberschaubar.",
+    "true_trg": "his experience on horseback is negligible.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "f\u00fcr den 58-j\u00e4hrigen war es eine premiere.",
+    "true_trg": "it was a first for the 58-year-old.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "chio: goldene sportpyramide f\u00fcr bernhard langer",
+    "true_trg": "chio: golden sport pyramid for bernhard langer[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ein kilometer bei diesem tempo, ich habe angst gehabt.",
+    "true_trg": "after a kilometre at this speed i was scared.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es war kein gutes erlebnis, sagt langer.",
+    "true_trg": "it wasnt a good experience, said langer.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "und damit endete die reitkarriere dann auch schon wieder.",
+    "true_trg": "and with that, his riding career came to an end again.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "langer war das erste mal in aachen und damit auch beim chio.",
+    "true_trg": "it was langers first time in aachen, and at chio.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der grund war durchaus \u00fcberzeugend.",
+    "true_trg": "he had been thoroughly convinced.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "an auszeichnungen mangelt es dem sympathischen sportler nicht.",
+    "true_trg": "the friendly sportsman is not lacking for awards.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "selbst die britische queen hat ihn schon geadelt.",
+    "true_trg": "even the british queen has bestowed an honour upon him.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "langer ist der 18. preistr\u00e4ger der sportpyramide.",
+    "true_trg": "langer is the 18th person to be awarded the sport pyramid.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "seit jahrzehnten f\u00f6rdert langer den nachwuchs.",
+    "true_trg": "langer has been encouraging up-and-coming talent for years.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "bernhard langer hielt abstand zu den gro\u00dfen tieren.",
+    "true_trg": "bernhard langer kept his distance from the large animals.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der, \u00fcber die rolle des staates.",
+    "true_trg": "this is the role of the state.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er selber dagegen w\u00e4re ganz anders, behauptet trump.",
+    "true_trg": "he would do things totally differently, trump says.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "deshalb w\u00fcrden die steuern f\u00fcr die reichen erh\u00f6ht, sagt sie.",
+    "true_trg": "this would increase taxes for the rich, she says.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "auf trump k\u00f6nnten also noch parteiinterne diskussionen zukommen.",
+    "true_trg": "consequently, trump could lead to discussions within the party.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ihn will sie auf 15 dollar pro stunde erh\u00f6hen.",
+    "true_trg": "she wants to raise it to 15 dollars an hour.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wenn sie in deutschland ankommen, sind sie oft traumatisiert.",
+    "true_trg": "when they arrive in germany, they are often traumatised.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ein haus bietet zuflucht.",
+    "true_trg": "one house offers refuge.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "in einer gro\u00dfen k\u00fcche sitzen vier frauen.",
+    "true_trg": "four women are sitting in a large kitchen.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "eine hat ihren kleinen sohn in den arm gelegt.",
+    "true_trg": "one woman holds her little son in her arms.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er guckt mit gro\u00dfen augen neugierig in den raum.",
+    "true_trg": "he looks around the room inquisitively, his eyes wide.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "seine mutter starrt auf die tischplatte.",
+    "true_trg": "his mother stares at the tabletop.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "bis sie merkt, dass sie beobachtet wird.",
+    "true_trg": "until she realises shes being watched.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie l\u00e4chelt kurz und k\u00fcsst den kleinen.",
+    "true_trg": "she smiles briefly and kisses the child.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die szene wirkt normal.",
+    "true_trg": "the scene looks normal.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "bis man mit katrin bahr spricht.",
+    "true_trg": "until you start talking to katrin bahr.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die vier frauen in der k\u00fcche sind gefl\u00fcchtete.",
+    "true_trg": "the four women in the kitchen are refugees.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "unl\u00e4ngst wurde sie offiziell er\u00f6ffnet.",
+    "true_trg": "it recently had its official opening.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "60 personen leben dort - etwa 40 frauen und 20 kinder.",
+    "true_trg": "60 people live there - around 40 women and 20 children.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "m\u00e4nner gibt es keine - auch nicht als besucher.",
+    "true_trg": "there are no men - not even male visitors.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die ausnahme ist ein wachmann vor der t\u00fcr.",
+    "true_trg": "the exception is a bodyguard on the door.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das treibt sie fort.",
+    "true_trg": "that propels them forward.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "auf der flucht geht das weiter.",
+    "true_trg": "and it continues even while theyre on the run.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "man k\u00f6nnte leicht ein zweites haus aufmachen.",
+    "true_trg": "it would be easy to open a second house.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "russland und t\u00fcrkei: eine allianz von au\u00dfenseitern?",
+    "true_trg": "russia and turkey: an alliance of misfits?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es war eine geste, die eine krise beendete.",
+    "true_trg": "it was a gesture that ended a crisis.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es gab den handschlag, ja.",
+    "true_trg": "there was the handshake, yes.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich konnte es nicht mehr z\u00e4hlen.",
+    "true_trg": "i lost count.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mir schien sein enthusiasmus eher das gegenteil anzudeuten.",
+    "true_trg": "to me, his enthusiasm implied the opposite.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "moskaus reaktion zu der zeit war wutentbrannt.",
+    "true_trg": "moscows reaction at the time was furious.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er hat dies vehement bestritten.",
+    "true_trg": "hes denied that emphatically.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "russland konnte eine art sieg verbuchen.",
+    "true_trg": "russia could claim a victory of sorts.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "aber es gibt auch wirtschaftliche motive.",
+    "true_trg": "there is also an economic motive.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die anzahl ist um fast 90 % zur\u00fcckgegangen.",
+    "true_trg": "the number has slumped by almost 90%.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie z\u00e4hlen auf einen sp\u00e4tsaisonalen ansturm ans mittelmeer.",
+    "true_trg": "theyre banking on a late-season rush to the mediterranean.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich bin sehr emotional, weil meine familie auch hier ist",
+    "true_trg": "im very emotional because my family are here as well[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich bin erleichtert und sehr bescheiden.",
+    "true_trg": "im relieved and very humble.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es war nervenaufreibend.",
+    "true_trg": "it has been a rollercoaster ride.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "russlands putin feuert stabschef sergei ivanov",
+    "true_trg": "russias putin sacks chief of staff sergei ivanov[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "vaino, 44, ist ehemaliger diplomat.",
+    "true_trg": "mr vaino, 44, is a former diplomat.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "\u00fcber seine ernennung sagte er zu putin:danke f\u00fcr ihr vertrauen.",
+    "true_trg": "on being appointed, he told mr putin: thank you for your trust.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "\u00fcberzeugen die l\u00e4chelnden gesichter?",
+    "true_trg": "do the smiles convince?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dieser schritt hat moskau geheimnisumwoben gemacht.",
+    "true_trg": "this is a move that has mystified moscow.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "liegt hier also die folge einer art machtkampf vor?",
+    "true_trg": "so is this the fall-out from some kind of power struggle?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das wei\u00df derzeit niemand.",
+    "true_trg": "no-one knows yet.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ivanov nahm den posten im dezember 2011 an.",
+    "true_trg": "mr ivanov took up the post in december 2011.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich bereue den vorfall, sagte er in einer mitteilung.",
+    "true_trg": "i regret that it occurred, he said in a statement.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "r\u00e4tsel um fische, die in garten in banff landeten",
+    "true_trg": "mystery as fish land in banff garden[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "queensferry crossing: br\u00fccke nun mit fife verbunden",
+    "true_trg": "queensferry crossing: bridge now connected to fife[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "gl\u00fccklicherweise verlief alles sehr gut.",
+    "true_trg": "happily, it all went very well.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "jemand hat heute \u00fcber diese m\u00e4nner gewacht.",
+    "true_trg": "someone was watching over these guys today.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "schwer verletzt - mann sticht auf seine ex-freundin ein",
+    "true_trg": "seriously injured - man stabs his ex-girlfriend[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "als diese in die wohnung kam, stach er zweimal auf sie ein.",
+    "true_trg": "when she came home, he stabbed her twice.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die 44-j\u00e4hrige wurde an der hand und am k\u00f6rper verletzt.",
+    "true_trg": "the 44-year-old suffered injuries to her hand and body.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die polizei konnte den t\u00e4ter festnehmen.",
+    "true_trg": "the police managed to arrest the perpetrator.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "diese alarmierte daraufhin dessen schwester.",
+    "true_trg": "she then called his sister.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "darum ging sie mit ihrem lebensgef\u00e4hrten aus dem haus.",
+    "true_trg": "consequently, she set off from home with her partner.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "auf der stra\u00dfe trafen sie die ex-lebensgef\u00e4hrtin des mannes an.",
+    "true_trg": "they met the mans ex-partner in the street.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wer baut braunschweigs g\u00fcnstige wohnungen?",
+    "true_trg": "who is going to build braunschweigs low-cost housing?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "doch streit ist programmiert.",
+    "true_trg": "but it wont be smooth sailing.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "eine regelung fehlt bislang.",
+    "true_trg": "so far, no settlement has been reached on this point.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die cdu m\u00f6chte investoren m\u00f6glichst wenige vorschriften machen.",
+    "true_trg": "the cdu wants to put as few rules on investors as possible.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mehr personal wird ben\u00f6tigt.",
+    "true_trg": "more staff will be needed.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es ist unklar, ob wir die fachkr\u00e4fte bekommen werden.",
+    "true_trg": "it is not clear if we will get the specialist staff.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "allein bis zum jahr 2020 werden es 500 wohnungen sein.",
+    "true_trg": "this will come to 500 homes even by 2020.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das ist in der weststadt m\u00f6glich.",
+    "true_trg": "this is possible in the west of the city.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "auf einen schlag lie\u00dfe sich das problem l\u00f6sen.",
+    "true_trg": "the problem could be solved in one fell swoop.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "pokmon go, eine jagd nach gesundheit und gl\u00fcck, die sich lohnt",
+    "true_trg": "pokmon go a worthy hunt for health and happiness[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es ist faszinierend zuzusehen, wie sich die welt ver\u00e4ndert.",
+    "true_trg": "it is fascinating to see how the world turns.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wie funktioniert es?",
+    "true_trg": "so how does it work?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dennoch kann die bedeutung von sport nicht \u00fcberbewertet werden.",
+    "true_trg": "yet the importance of exercise cannot be understated.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "manche leute schlie\u00dfen auf der jagd sogar neue freundschaften.",
+    "true_trg": "some people are even making new friends on the hunt.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "und ja, jemand k\u00f6nnte gegen eine t\u00fcr laufen.",
+    "true_trg": "and yes somebody might walk into a door.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "was solls?",
+    "true_trg": "so what?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es hat sich ein durchbruch ereignet.",
+    "true_trg": "a breakthrough has occurred.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "lesen sie dr. joes blog auf www.drjoetoday.com",
+    "true_trg": "read dr joes blogs at www.drjoetoday.com[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "simone biles schafft gold im damenturnen",
+    "true_trg": "simone biles nails all-around gold in womens gymnastics[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "vergessen sie den druck.",
+    "true_trg": "forget the pressure.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "vergessen sie den hype.",
+    "true_trg": "forget the hype.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "simone biles ist auf all das immun.",
+    "true_trg": "simone biles is immune to all of it.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dynamisch auf dem sprungpferd.",
+    "true_trg": "dynamic on vault.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "m\u00fchelos auf dem balken.",
+    "true_trg": "effortless on beam.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "atemberaubend auf dem boden.",
+    "true_trg": "jaw-dropping on floor.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "auf ganzer linie brilliant.",
+    "true_trg": "brilliant all over.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "und jetzt endlich auch olympiasiegerin.",
+    "true_trg": "and now, finally, an olympic champion.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das ist kein zufall.",
+    "true_trg": "its not a coincidence.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "liner, 31, und ellis tochter maleah verstarben noch vor ort.",
+    "true_trg": "liner, 31, and ellis daughter maleah died at the scene.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mutter eines 6-j\u00e4hrigen mit mikrozephalie: es wird besser",
+    "true_trg": "mother of 6-year-old with microcephaly: it gets better[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich schaffe das nicht.",
+    "true_trg": "i cant do this.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "darauf habe ich mich nicht eingelassen.",
+    "true_trg": "i didnt sign up for this.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "edmund kann mit hilfe einer gehhilfe laufen.",
+    "true_trg": "edmund walks with the help of a walker.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "aber er macht langsam fortschritte.",
+    "true_trg": "but hes slowly meeting some milestones.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er kann mit unterst\u00fctzung laufen und fahrradfahren.",
+    "true_trg": "hes walking with help, and riding a bike.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wir bringen ihm zeichensprache bei, erz\u00e4hlte picciuto cbs news.",
+    "true_trg": "were teaching him sign language, picciuto told cbs news.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die symptome und prognosen k\u00f6nnen stark variieren.",
+    "true_trg": "symptoms and prognosis can vary widely.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich fragte st\u00e4ndig, was wird geschehen?",
+    "true_trg": "i kept saying, whats going to happen?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "was wird geschehen?",
+    "true_trg": "whats going to happen?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "und sie wei\u00df es noch immer nicht wirklich.",
+    "true_trg": "and she still doesnt really know.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es wird besser.",
+    "true_trg": "it gets better.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie wissen, dass es f\u00fcr sie besser werden wird.",
+    "true_trg": "you know it will get better for you.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie werden ihr kind lieben und ihr kind wird sie lieben.",
+    "true_trg": "you will love your child, and your child will love you.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es erreichte meine taille.",
+    "true_trg": "it came up to my waist.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dies scheint ein \u00e4hnlicher vorfall zu werden.",
+    "true_trg": "this one is on track to be a similar event.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich kann das einfach nicht glauben.",
+    "true_trg": "i just cant believe it.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "weshalb wir simone, gabby und laurie brauchen",
+    "true_trg": "why we need simone, gabby and laurie[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "diese mannschaft spiegelt endlich die usa wider.",
+    "true_trg": "this team looks, finally, like america.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "letztes jahr waren simone und gabby #1 und #2.",
+    "true_trg": "last year, simone and gabby were #1 and #2.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das zeigt st\u00e4rke.",
+    "true_trg": "this is powerful.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mannschaftmitglied aly raisman gewann silber.",
+    "true_trg": "and teammate aly raisman earned silver.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich habe meine turnstiftung von 20 jahren gegr\u00fcndet.",
+    "true_trg": "i founded my gymnastics foundation 20 years ago.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es ist so wichtig, am sport teilzunehmen, vor allem f\u00fcr m\u00e4dchen.",
+    "true_trg": "to participate in sport is so important, especially for girls.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das ist eine so spannende zeit.",
+    "true_trg": "this is such an exciting time.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das \u00a32-pro tag- medikament, das herzinfarktrisiko senken kann",
+    "true_trg": "the \u00a32-a-day drug that can cut heart attack threat[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sir eric sagte, dass es im ganzen land beweise f\u00fcr betrug g\u00e4be.",
+    "true_trg": "sir eric said there was evidence of fraud across the country.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "fotografierverbot in wahlstationen.",
+    "true_trg": "make it illegal to take pictures in polling stations.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "zu aufgeregt, ging ab wie mief, starb wie ein schwein.",
+    "true_trg": "too excited, went out like stink, died like a pig.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "danke daf\u00fcr.",
+    "true_trg": "thanks for that.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie sagte:  die leute konnten nicht glauben, was sie sahen.",
+    "true_trg": "she said: people couldnt believe what they were seeing.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der vorfall ereignete sich am dienstag nachmittag.",
+    "true_trg": "the incident happened on tuesday afternoon.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "alle in frage kommenden produkte wurden aus dem verkauf gezogen.",
+    "true_trg": "all the product in question has been removed from sale.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wie man sich mit krav maga vor waffenangriffen sch\u00fctzt",
+    "true_trg": "how to defend yourself from gun attacks using krav maga[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "klingt schwierig?",
+    "true_trg": "sounds tricky?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "im film wurde er seinem ruf auf jeden fall gerecht.",
+    "true_trg": "he certainly proved his reputation during the film.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es gibt nichts schmutzigeres als das!",
+    "true_trg": "theres nothing more dirty than that![EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die familie ist ber\u00fcchtigt und ihr ruf ist es ebenfalls.",
+    "true_trg": "this family are notorious and their name is notorious.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "einer sagte aus: sie scherten sich um niemanden.",
+    "true_trg": "one said: they didnt care about anybody.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wir lebten 20 jahre neben ihnen und es war immer schlimm.",
+    "true_trg": "we lived next to them for 20 years and its always been bad.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "heute morgen konnten wir nicht schlafen.",
+    "true_trg": "this morning, we couldnt sleep.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "jetzt, wo sie endlich weg sind, wird es sch\u00f6n werden.",
+    "true_trg": "its going to be lovely now that theyre finally gone.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "supercup: barca mit sorgen gegen sevilla",
+    "true_trg": "supercup: barca is worried about facing sevilla[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "au\u00dferdem fehlt auch goalie marc-andre ter stegen.",
+    "true_trg": "in addition, goalkeeper marc-andre ter stegen is also missing.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "bronze ging an den japaner jun mizutani.",
+    "true_trg": "the bronze medal went to jun mizutani from japan.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die matches bis hierher habe ich f\u00fcr mein land gespielt.",
+    "true_trg": "up until now, i have played for my country.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "im finale spiele ich f\u00fcr mich, hatte zhang folgerichtig gesagt.",
+    "true_trg": "in the final, im playing for myself, zhang summarised.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das match selbst war unerwartet einseitig.",
+    "true_trg": "the match itself was unexpectedly one-sided.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "republikanische hochburgen wackeln",
+    "true_trg": "republican strongholds are wavering[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "utah ist normalerweise eine sichere bank f\u00fcr die republikaner.",
+    "true_trg": "utah is normally a safe seat for the republicans.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "als gef\u00e4hrdet gelten auch arizona und georgia.",
+    "true_trg": "arizona and georgia are also at risk.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er mache nichts anderes, als die wahrheit zu erz\u00e4hlen.",
+    "true_trg": "he said he was just telling the truth.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dann kehre ich zu einer sehr guten lebensweise zur\u00fcck.",
+    "true_trg": "then, he said, id return to a very nice way of life.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "olympia: dreister betrug bei doping-test",
+    "true_trg": "olympics: brazen cheating in doping tests[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das gesetz wurde wenige wochen vor olympia-beginn verabschiedet.",
+    "true_trg": "the law was passed a few weeks before the start of the olympics.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "kenia gilt als gro\u00dfe l\u00e4ufer-nation.",
+    "true_trg": "running is a national sport in kenya.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "salzburger west side story mit cecilia bartoli",
+    "true_trg": "salzburgs west side story with cecilia bartoli[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mit dabei eine \u00fcberraschende cecilia bartoli.",
+    "true_trg": "featuring a surprise: cecilia bartoli.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wir sagen immer, dass sie sehr lateinamerikanisch gepr\u00e4gt ist.",
+    "true_trg": "we always say that it has a lot of latin american influences.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die rolle der maria hat mich immer fasziniert.",
+    "true_trg": "the role of maria has always fascinated me.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "erstens weil sie musikalisch au\u00dfergew\u00f6hnlich ist!",
+    "true_trg": "firstly because its musically unusual![EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "und dann w\u00e4re da noch marias pers\u00f6nlichkeit.",
+    "true_trg": "and then theres marias personality.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es ist so eine ehre f\u00fcr uns mit ihr zu arbeiten.",
+    "true_trg": "we are so honoured to work with her.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie ist ein ungeheuer gro\u00dfz\u00fcgiger mensch.",
+    "true_trg": "she is an incredibly generous person.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dirigieren ist f\u00fcr ihn eine notwendigkeit.",
+    "true_trg": "for him, conducting is a need.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "59 jahre sp\u00e4ter ist das st\u00fcck immer noch relevant.",
+    "true_trg": "fifty-nine years on, the work is still relevant.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "treats will nacktkalendar f\u00fcr frauen und f\u00fcr m\u00e4nner",
+    "true_trg": "treats says nude calendar for women, as well as men[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich mache das f\u00fcr frauen.",
+    "true_trg": "i do this for women.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "anscheinend ist er der ansicht, dass es der kalendar auch tut.",
+    "true_trg": "apparently he thinks the calendar is, too.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "t\u00fcrkei: kurdische gemeinde rechnet mit massenflucht",
+    "true_trg": "turkey: kurdish community faces mass exodus[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mecklenburg-vorpommern: dahin gehen, wo es wehtut",
+    "true_trg": "mecklenburg-vorpommern: go where it hurts[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "in mecklenburg-vorpommern haben sie verstanden.",
+    "true_trg": "in mecklenburg-vorpommern, they understood this.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das, so meint kokert, spiele nur noch eine untergeordnete rolle.",
+    "true_trg": "according to kokert, that will only play a minor role.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "b27-sanierung: gastst\u00e4tten leiden unter sperrung",
+    "true_trg": "b27 redevelopment: restaurants are suffering from the closure[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das ist ein superteam.",
+    "true_trg": "that is a super team.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es gibt auch keinen verzug.",
+    "true_trg": "there are also no delays.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "in die karten schauen lassen sich gesch\u00e4ftsleute nicht gern.",
+    "true_trg": "business people dont like to show their hand.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "allerdings sind manche mehr und manche weniger betroffen.",
+    "true_trg": "however, some have been affected more than others.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "am st\u00e4rksten gebeutelt sind die lokale entlang der stra\u00dfe.",
+    "true_trg": "bars and restaurants along the road had been the hardest hit.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das ist schon existenzbedrohend.",
+    "true_trg": "it has threatened our very existence.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "nicht nur ihn, sondern alle gastst\u00e4tten habe es hart getroffen.",
+    "true_trg": "its not just him: all restaurants have been hit hard.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es fehlten die kunden aus hechingen, balingen und rottweil.",
+    "true_trg": "customers from hechingen, balingen and rottweil stayed away.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wir m\u00fcssen froh sein \u00fcber jeden euro umsatz.",
+    "true_trg": "we have to be happy about every euro of profit we make.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die umsatzeinbu\u00dfen beziffert er auf weit \u00fcber 50 prozent.",
+    "true_trg": "he reckons that profits slumped by far more than 50 percent.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die h\u00e4lfte seiner mitarbeiter habe er entlassen m\u00fcssen.",
+    "true_trg": "he had to let half of his staff go.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wenn man nicht herfahren kann, ist es auch woanders sch\u00f6n.",
+    "true_trg": "if you cant drive past, other places are also nice.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sechs monate bauarbeiten, das ist schon brutal.",
+    "true_trg": "six months of construction works, thats brutal.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "aber was hat ein duldungsstatus mit terror zu tun?",
+    "true_trg": "but what does residential status have to do with terrorism?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "und was sagt der koalitionspartner zu all dem?",
+    "true_trg": "and what does the coalition partner have to say about it all?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "thomas de maizire gibt den vers\u00f6hner.",
+    "true_trg": "thomas de maizire is playing the conciliator.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie \u00fcberfordern niemanden.",
+    "true_trg": "they are not asking too much of anyone.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "auch daran beteilige ich mich.",
+    "true_trg": "i will also be involved in that.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die fallen daf\u00fcr nun aber umso umfangreicher aus.",
+    "true_trg": "however, they are more comprehensive as a result.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ein paar neue ideen pr\u00e4sentiert de maizire auch.",
+    "true_trg": "de maizire also presented a few new ideas.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "einiges davon ist politisch und rechtlich heikel.",
+    "true_trg": "some of it is politically and legally tricky.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die innere sicherheit ist enorm in den fokus ger\u00fcckt.",
+    "true_trg": "domestic security has come to the fore to a huge extent.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dann die attacken in w\u00fcrzburg und ansbach.",
+    "true_trg": "then the attacks in w\u00fcrzburg and ansbach.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die verunsicherung ist gro\u00df.",
+    "true_trg": "there is a large amount of uncertainty.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "und ja, es stehen wahlk\u00e4mpfe an.",
+    "true_trg": "and yes, elections are looming.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "de maizire m\u00fcht sich auch hier um vers\u00f6hnliche t\u00f6ne.",
+    "true_trg": "de maizire is also trying to strike a conciliatory note here.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "von einer abkehr vom doppelpass halte er nichts.",
+    "true_trg": "he does not think that dual citizenship will be removed.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wir haben die diskussion in deutschland befriedet.",
+    "true_trg": "we have dealt with the discussions in germany.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie neu aufzumachen, sei nicht sinnvoll.",
+    "true_trg": "it would not make sense to reopen discussions on this topic.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es steckt einiges drin, was f\u00fcr streit sorgen k\u00f6nnte.",
+    "true_trg": "there are few things inside it that could cause problems.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "noch kommt volkswagen glimpflich durch.",
+    "true_trg": "volkswagen gets off lightly.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "doch nicht in allen m\u00e4rkten l\u00e4uft es rund.",
+    "true_trg": "but things arent quite as rosy in all markets.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "bei der r\u00fcckrufaktion gibt es wirbel um einen begriff.",
+    "true_trg": "the recall has led to fuss about one term.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "gro\u00dfe st\u00fctze f\u00fcr vw ist der chinesische markt.",
+    "true_trg": "the chinese market is a source of great support for vw.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "volkswagen hatte mit einer software abgastests manipuliert.",
+    "true_trg": "volkswagen had used software to manipulate emissions tests.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "grund seien juristische feinheiten.",
+    "true_trg": "legal intricacies are the reason for this.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "deswegen verwende vw den begriff garantie nicht.",
+    "true_trg": "this is why vw will not be using the term guarantee.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die ersten 100.000 euro sind frei.",
+    "true_trg": "the first 100,000 euros are free.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich kann nicht f\u00fcr jede million 4000 euro hinlegen.",
+    "true_trg": "i cannot put 4000 euros aside for every million.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die kosten gebe er nach dem verursacherprinzip nun weiter.",
+    "true_trg": "he is passing on the costs under the polluter pays principle.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "nur wenige wanderten zu anderen banken ab.",
+    "true_trg": "only a small number moved to other banks.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "destination platten: wer kauft eigentlich schallplatten?",
+    "true_trg": "vinyl destination: who is actually buying records?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "einsame m\u00e4nner mittleren alters lieben platten.",
+    "true_trg": "lonely, middle-aged men love vinyl.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "aber stimmen die ergebnisse von yougov?",
+    "true_trg": "but are yougovs results true?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "also, lassen sie uns einen blick darauf werfen.",
+    "true_trg": "so, lets take a look.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ist er ein sammler, frage ich?",
+    "true_trg": "is he a collector, i ask?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich sch\u00e4tze schon, sagt er.",
+    "true_trg": "i suppose i am, he says.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich habe ca. 3.000 oder 4.000 platten.",
+    "true_trg": "i have about 3,000 or 4,000 records.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das ist mein laster.",
+    "true_trg": "its my vice.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es ist ein einfacher weg, sich geistig zu besch\u00e4ftigen.",
+    "true_trg": "its an easy way to occupy your headspace.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dies ist kein gro\u00dfer prozentsatz, aber es passiert definitiv.",
+    "true_trg": "thats not a large percentage, but its definitely happening.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mehr produktlastig, weniger musiklastig.",
+    "true_trg": "more of the product side, less of the music.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wir haben leute, die sagen: ich habe keinen plattenspieler.",
+    "true_trg": "we have people saying: i dont have a record player.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie macht eher einen schaufensterbummel als einen gro\u00dfeinkauf.",
+    "true_trg": "she is window-shopping, rather than on a spending spree.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es kostet viel.",
+    "true_trg": "it costs a lot.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es ist reine plattenkunst.",
+    "true_trg": "it is pure art vinyl.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "trotz olympia-entt\u00e4uschung: martin bleibt k\u00e4mpferisch",
+    "true_trg": "despite olympic disappointment, martin keeps his fighting spirit[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "olympia: tennisprofi siegemund verpasst halbfinale",
+    "true_trg": "olympics: tennis pro siegemund misses out on the semi-final[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "konzern steigt bei start-up f\u00fcr live-videospiel\u00fcbertragungen ein",
+    "true_trg": "company gets involved in start-up for live video game streaming[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die werbeindustrie horcht bereits auf.",
+    "true_trg": "the advertising industry has already pricked up its ears.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "bekannte plattformen sind twitch und youtube gaming.",
+    "true_trg": "well-known platforms include twitch and youtube gaming.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "youtube gaming geh\u00f6rt zur google-mutter alphabet.",
+    "true_trg": "youtube gaming is owned by googles parent company alphabet.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "hier kommt der enforcement trailer",
+    "true_trg": "here comes the enforcement trailer[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "gb hatte einen schwierigen weg hinter sich.",
+    "true_trg": "it has been some journey for gb.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "hier verloren sie nur eins.",
+    "true_trg": "here, they lost just one.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "12-0 und gb hat kaum den ball angefasst.",
+    "true_trg": "12-0 and gb had hardly touched the ball.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die umwandlung brachte ein 29-0 bis zur pause.",
+    "true_trg": "the conversion made it 29-0 at the break.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "so ist es auch.",
+    "true_trg": "which is pretty much how it is.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es war nicht schwer den spielerischen ansatz fijis zu bewundern.",
+    "true_trg": "it was hard not to admire fijis whole joyful approach.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wie er sagte, er was riskant.",
+    "true_trg": "as he said, it was touch and go.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wenn sie das nicht tun, breitet er sich \u00fcberall aus.",
+    "true_trg": "if they dont it goes everywhere.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es w\u00e4re ein ziemlich schlimme situation gewesen.",
+    "true_trg": "it would have been a pretty bad situation.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es ver\u00e4ndert ein wenig den ausblick.",
+    "true_trg": "it alters your outlook a bit.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "williams wurde im dezember 2013 diagnostiziert.",
+    "true_trg": "williams was diagnosed in december 2013.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es war ein anreiz.",
+    "true_trg": "it was an incentive.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "so beginnt es.",
+    "true_trg": "thats how it starts off.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es waren drei fantastische jahre mit helen und robin.",
+    "true_trg": "its been a fantastic three years back with helen and robin.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wir waren sehr im moment gefangen.",
+    "true_trg": "we were very much in the moment.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "helen rief bleib im prozess, bleib im prozess.",
+    "true_trg": "helen was calling stay in the process, stay in the process.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es ist wirklich wichtig, sich nicht mitrei\u00dfen zu lassen.",
+    "true_trg": "its really important not to get carried away.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "jetzt will sie einfach den moment genie\u00dfen.",
+    "true_trg": "for now she just wants to enjoy the moment.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich wollte nicht sagen, dass das mein letztes rennen war.",
+    "true_trg": "i didnt want to say this was my last race.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das h\u00e4tte zuviel druck bedeutet.",
+    "true_trg": "that would have meant too much pressure.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es war alles so neu f\u00fcr mich und ich war so gestresst.",
+    "true_trg": "it was all so new and i was so stressed.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "hier dauerte es ca. vier minuten.",
+    "true_trg": "here it took about four minutes.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das f\u00fchlt sich so viel besser an, sagte sie.",
+    "true_trg": "this feels so much better, she said.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "31 jahre lang vorbildlich f\u00fcr klarheit gesorgt",
+    "true_trg": "setting a clear example for 31 years[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der verband gilt als bayernweit vorbildlich.",
+    "true_trg": "the assocation sets an example for the entirety of bavaria.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "daf\u00fcr habe er sehr viel anerkennung und lob erhalten.",
+    "true_trg": "he received considerable appreciation and praise for this.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er ist der beste wasserwart und er war ein treuer knappe.",
+    "true_trg": "he is the best water officer, and he was a loyal lad.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "zusammen waren wir ein unschlagbares team.",
+    "true_trg": "together, we were an unbeatable team.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "aber er ist der gl\u00fccklichste mensch auf erden.",
+    "true_trg": "but he is the happiest person on earth.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie ist nun mit dem tenor yusif eyvazov verheiratet.",
+    "true_trg": "she is now married to tenor yusif eyvazov.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "beziehungstat in bargteheide - mann schie\u00dft auf lebensgef\u00e4hrtin",
+    "true_trg": "crime passionelle in bargteheide - man shoots his partner[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mittlerweile hat die polizei ein foto von ihm ver\u00f6ffentlicht.",
+    "true_trg": "the police have now issued a photo of him.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es ist allerdings ein paar jahre alt.",
+    "true_trg": "but it is a couple of years old.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "inzwischen tr\u00e4gt der mann eine glatze.",
+    "true_trg": "the man now has a bald patch.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der mann soll nicht direkt angesprochen werden.",
+    "true_trg": "the man should not be approached.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er k\u00f6nne noch die waffe bei sich tragen, so die polizei.",
+    "true_trg": "the police believe he may still be carrying a weapon.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wer sven s. sieht, soll die 110 rufen.",
+    "true_trg": "anyone who sees sven s. should call 110.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die polizei spricht von einer beziehungstat.",
+    "true_trg": "the police are talking of a crime passionelle.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das opfer sei jahrgang 1988, der t\u00e4ter 1981.",
+    "true_trg": "the victim was apparently born in 1988, the perpetrator in 1981.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es handelt sich um einen t\u00f6tungsdelikt.",
+    "true_trg": "it is a homicide.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "stahl - lichtblick f\u00fcr deutsche stahlindustrie",
+    "true_trg": "steel - theres a ray of hope for the german steel industry[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "aber auch diese werde in der stahlindustrie nicht erhoben.",
+    "true_trg": "this too will not be levied against the steel industry.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "weitere m\u00fcssen folgen.",
+    "true_trg": "this needs to be followed by other steps.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "unklar ist, wie nachhaltig die preiserholung ist.",
+    "true_trg": "it is not clear how long prices will remain perked up for.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "zuletzt h\u00e4tten die preise wieder eher stagniert.",
+    "true_trg": "prices had plateaued recently, he said.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "gemeinschaft, geist, gesundheit: singen tut senioren gut",
+    "true_trg": "community, mind, health: singing is good for the elderly[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "singen bewegt mich - emotional und k\u00f6rperlich, beschreibt sie.",
+    "true_trg": "singing moves me - emotionally and physically, she describes.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "singen kann im positiven sinne anstrengend sein, meint hackler.",
+    "true_trg": "singing can be demanding in the positive sense, hackler thinks.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ein begeistertes publikum ist ein tolles lob.",
+    "true_trg": "a happy audience is great praise.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "auch das selbstwertgef\u00fchl w\u00e4chst durch das singen im chor.",
+    "true_trg": "even ones self-esteem is boosted by singing in a choir.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "gute gr\u00fcnde, um mit dem singen zu beginnen, gibt es also genug.",
+    "true_trg": "so there are enough good reasons to start singing.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "viele seniorench\u00f6re findet man auch \u00fcber das internet.",
+    "true_trg": "many choirs for the elderly can also be found online.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "podolski greift mit gala nach supercup",
+    "true_trg": "podolski and gala are shooting for the supercup[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "hakan s\u00fck\u00fcr ist in der t\u00fcrkei eine fu\u00dfball-legende.",
+    "true_trg": "hakan s\u00fck\u00fcr is a football legend in turkey.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dabei wird auch vor dem fu\u00dfball nicht halt gemacht.",
+    "true_trg": "and this doesnt stop for football.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "in der s\u00fcper lig reichte es nur zu rang sechs.",
+    "true_trg": "they only reached sixth place in the s\u00fcper lig.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die saison war nicht gut.",
+    "true_trg": "the season was not good.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der pokal war die einzige m\u00f6glichkeit, etwas zu gewinnen.",
+    "true_trg": "the cup was the only chance to win something.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "f\u00fcr meister besiktas lief das spieljahr besser.",
+    "true_trg": "winners besiktas saw a better year of play.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "hier eine \u00fcbersicht:",
+    "true_trg": "here is an overview:[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mit 80,04 m liegt er auf rang zwei der weltrangliste.",
+    "true_trg": "with 80.04m he is at second place in the global rankings.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ihre heimreise habe sie f\u00fcr anfang september geplant.",
+    "true_trg": "she plans to return home at the start of september.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "noch sei unklar, welche gruppe hinter den anschl\u00e4gen stecke.",
+    "true_trg": "it is still apparently unclear who is behind the attacks.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "in dem konflikt wurden bereits mehr als 6500 menschen get\u00f6tet.",
+    "true_trg": "more than 6,500 people have been killed in the conflict so far.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das t\u00e4ten islamisten ebenso wie rechtsextremisten.",
+    "true_trg": "radical islamists and right-wing extremists both do this.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das ist keine betuliche werbung f\u00fcr die eigene sache.",
+    "true_trg": "its not calm advertisement for the actual matter at hand.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "junge leute sind da in besonderer weise anf\u00e4llig.",
+    "true_trg": "young people are particularly vulnerable to this.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das ist gef\u00e4hrlich.",
+    "true_trg": "this is dangerous.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "maa\u00dfen sagte, dazu habe er keine erkenntnisse.",
+    "true_trg": "maa\u00dfen said he had no information on this.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dies sei nicht erkennbar.",
+    "true_trg": "this has not been noted.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es gab die gruppe old school society oder die freitaler gruppe.",
+    "true_trg": "there was the old school society group or the freitaler group.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das ist das besorgniserregende.",
+    "true_trg": "that is frightening.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "rio 2016: robel kiros habte wird zum internethit",
+    "true_trg": "rio 2016: robel kiros habte becomes an internet sensation[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "schnell machten die ersten spitznamen die runde.",
+    "true_trg": "the first nicknames were soon doing the rounds.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "einige medien bezeichneten ihn als robel der wal.",
+    "true_trg": "some media outlets dubbed him robel the whale.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "vergleiche mit eric the eel wurden ebenfalls gezogen.",
+    "true_trg": "comparisons were also made with eric the eel.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "frenetisch wurde moussambani damals angefeuert.",
+    "true_trg": "moussambani was then greeted by wild cheering.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "spuren des t\u00e4ters konnten nicht gefunden werden.",
+    "true_trg": "there was no trace of the perpetrator.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "auch eine video\u00fcberwachung ist nicht vorhanden.",
+    "true_trg": "the shop did not have cctv.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "trump sieht die drohende wahlniederlage nicht so eng",
+    "true_trg": "trump is not taking the threat of election defeat too seriously[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er fahre dann eben in den urlaub.",
+    "true_trg": "he would go on holiday.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "post steigt in den handel mit elektro-transportern ein",
+    "true_trg": "the postal service gets on board with electric vehicles[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ein elektro-zustellfahrzeug der deutschen post in aktion.",
+    "true_trg": "detusche posts electric truck in action.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das interesse anderer firmen an dem gef\u00e4hrt ist offenbar gro\u00df.",
+    "true_trg": "other companies are clearly interested in the vehicle.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "gfk-f\u00fchrung tritt nach entt\u00e4uschenden gesch\u00e4ftszahlen ab",
+    "true_trg": "gfk managing director steps down after disappointing figures[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "details wollte ein unternehmenssprecher am freitag nicht nennen.",
+    "true_trg": "a company spokesman did not give further details on friday.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "herr hartmann ist seit 2011 an der gfk-spitze.",
+    "true_trg": "mr hartman has headed up gfk since 2011.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die feuerwehr befreite die insassen.",
+    "true_trg": "the fire brigade freed the passengers.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die geb\u00fchrenerh\u00f6hungen liegen zwischen 48 und 67 prozent.",
+    "true_trg": "the fee increases range from 48 to 67 percent.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "bulgarien verbucht zum ersten mal in 8 monaten inflation",
+    "true_trg": "bulgaria posts inflation for 1st time in 8 months[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "snapchat anime-effekt als asiatische karikatur kritisiert",
+    "true_trg": "snapchat anime effect is criticized as asian caricature[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "s\u00e4mtliche fehltritte gelangen an die \u00f6ffentlichkeit.",
+    "true_trg": "any missteps quickly enter the public record.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "andere lehnten den anime-vergleich entschieden ab.",
+    "true_trg": "others roundly rejected the anime comparison.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich habe keine ahnung. sagte sie.",
+    "true_trg": "i have no clue, she said.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "bam war teil dieses teams.",
+    "true_trg": "bam was on that team.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wir haben das ruder komplett herumrei\u00dfen k\u00f6nnen.",
+    "true_trg": "weve made a complete turnaround.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie hat einen lauf.",
+    "true_trg": "she is on a roll.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "genauso wie bam.",
+    "true_trg": "so is bam.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "inmitten der rage der olympischen spiele, das zen des trampolins",
+    "true_trg": "amid the fury of the olympics, the zen of the trampoline[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "und dann gibt es noch logan dooley.",
+    "true_trg": "and then there is logan dooley.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die olympische flamme beleuchtet nicht jedes ereignis gleich.",
+    "true_trg": "the olympic flame does not illuminate each event equally.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das k\u00f6nnte auch regionale ignoranz sein.",
+    "true_trg": "this may be a regional ignorance.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der gemeinsamste olympische vektor ist geradeaus.",
+    "true_trg": "the most common olympic vector is straight ahead.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "davon bietet das trampolin eine atempause.",
+    "true_trg": "from this, trampoline offers a respite.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der vektor des trampolinspringers ist oben.",
+    "true_trg": "the trampoliners vector is up.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "eine vorw\u00e4rtsbewegung ist nicht das ziel.",
+    "true_trg": "forward motion is not the goal.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "gewaltt\u00e4tige proteste in \u00e4thiopien",
+    "true_trg": "violent protests in ethiopia[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ist \u00e4thiopien gerade dabei zusammenzubrechen?",
+    "true_trg": "is ethiopia about to crack?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "\u00e4thiopiens wirtschaft expandierte im beachtlichen tempo.",
+    "true_trg": "ethiopias economy has been expanding at an impressive clip.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die strassen sind in der regel ruhig, sicher und sauber.",
+    "true_trg": "and its streets are typically quiet, safe and clean.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "doch das k\u00f6nnte sich \u00e4ndern.",
+    "true_trg": "but that may be changing.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die gesamte jugend protestiert.",
+    "true_trg": "the whole youth is protesting.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "eine generation protestiert.",
+    "true_trg": "a generation is protesting.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der erste scheint harmlos: smartphones.",
+    "true_trg": "the first is seemingly innocuous: smartphones.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die oromos und amharas sind keine nat\u00fcrlichen feinde.",
+    "true_trg": "oromos and amharas are not natural allies.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "aber auch das \u00e4ndert sich gerade.",
+    "true_trg": "but that is changing as well.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der dritte grund f\u00fcr die unruhen ist der tod von meles zenawi.",
+    "true_trg": "the third reason behind the unrest is the loss of meles zenawi.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "und sie nimmt eine gef\u00e4hrliche ethnische form an.",
+    "true_trg": "and it is taking a dangerous ethnic shape.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dies, sagte herr abdi, ist eine sehr d\u00fcnne gratwanderung.",
+    "true_trg": "that, mr. abdi said, is a very tight rope to walk.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der kaffee ist auch noch immer gut.",
+    "true_trg": "the coffee is still good, too.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er begann 2001 bei verb zu arbeiten und blieb dort bis zum ende.",
+    "true_trg": "he started at verb in 2001 and was there until the end.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "rodriguez, 36, behielt vieles bei.",
+    "true_trg": "mr. rodriguez, 36, kept a lot of things the same.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es verwendet sogar dieselben lampen aus dem alten verb.",
+    "true_trg": "it even reused the lights from the old verb.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "aber rodriguez sagte, dass er auch experimentieren wollte.",
+    "true_trg": "but mr. rodriguez said he also wanted to experiment.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er f\u00fchrte neue zutaten ein.",
+    "true_trg": "he introduced new ingredients.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es gibt naturreisssch\u00fcsseln.",
+    "true_trg": "there are brown-rice bowls.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das caf serviert kein bier mehr, daf\u00fcr gibt es frische s\u00e4fte.",
+    "true_trg": "the cafe no longer serves beer but now makes fresh juices.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der standort hat auch weitere vorz\u00fcge.",
+    "true_trg": "the new location has other perks.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich musste das riechen, sagte er.",
+    "true_trg": "ive needed to smell that, he said.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "reichhaltige lebensmittel waren sehr beliebt, sagte ziegelman.",
+    "true_trg": "loaves were very popular, ms. ziegelman said.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es gab erdnussbrot, leberk\u00e4se und bohnenbrot.",
+    "true_trg": "there was peanut loaf, liver loaf, bean loaf.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "coe grinste.",
+    "true_trg": "mr. coe grimaced.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es muss sich im magen wie blei gelegt haben, sagte er.",
+    "true_trg": "it must have sat in your stomach like lead, he said.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "frisches obst wurde durch billigeres trockenobst ersetzt.",
+    "true_trg": "fresh fruit was replaced with cheaper dried fruit.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es war kein beliebter zusatz am mittagstsich, sagt coe.",
+    "true_trg": "it was not a popular addition to the dinner table, mr. coe said.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ziegelmann f\u00fchrt weiter aus:es war surreal.",
+    "true_trg": "ms. ziegelman amplified: it was surreal.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "erdnussbutter und gebackene zwiebeln passen nicht zueinander.",
+    "true_trg": "peanut butter has nothing to say to a baked onion.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es war f\u00fcr viele der hauswirtschaftsrezepte typisch.",
+    "true_trg": "it was characteristic of a lot of the home-ec recipes.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "a square meal ist ein fest der historischen leckerbissen.",
+    "true_trg": "a square meal is a feast of historical tidbits.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er war herrlich realit\u00e4tsfremd.",
+    "true_trg": "he was fabulously out of touch.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ziegelman erinnerte sich: sie machte leute tats\u00e4chlich krank.",
+    "true_trg": "ms. ziegelman recalled: she actually got people sick.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "da gab es den windbeutelvorfall.",
+    "true_trg": "there was the cream-puff incident.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "erstaunlicherweise schmeckte es nicht schlecht.",
+    "true_trg": "surprisingly, it wasnt bad.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "coe holte sich dreimal einen nachschlag.",
+    "true_trg": "mr. coe went back for seconds, and thirds.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "bei bomben-angriff get\u00f6tet: er war der held von aleppo",
+    "true_trg": "killed in a bomb attack: he was the hero of aleppo[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er riskierte alles, um anderen das leben zu retten.",
+    "true_trg": "he risked everything to save other peoples lives.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie sind die helden des krieges in syrien.",
+    "true_trg": "they are the heroes of the war in syria.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "seltener anblick.",
+    "true_trg": "its a rare sight.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "gr\u00f6nlandhaie kommen meist nur im winter zur oberfl\u00e4che.",
+    "true_trg": "greenland sharks generally only come to the surface in winter.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "gr\u00f6nlandhaie bekommen erst mit 150 jahren nachwuchs.",
+    "true_trg": "greenland sharks only give birth to young at the age of 150.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "nur fehlten die beweise.",
+    "true_trg": "they were simply lacking the proof.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "nun konnten die forscher der l\u00e4nge ein alter zuordnen.",
+    "true_trg": "now researchers have been able to map this length onto an age.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "auch das d\u00fcrfte f\u00fcr wirbeltiere derzeit weltrekord sein.",
+    "true_trg": "this is also a world record for vertebrates.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie reifen also sp\u00e4ter - und altern langsamer.",
+    "true_trg": "this means they mature later - and age slower.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ein weiterer vorteil: sie haben weniger feinde.",
+    "true_trg": "another advantage is that they have fewer enemies.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "baugrund im doppelpack",
+    "true_trg": "construction sites coming as a twinpack[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "frankfurt profitiert vom brexit",
+    "true_trg": "frankfurt will benefit from brexit[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das nutzen gerade gro\u00dfe us-banken.",
+    "true_trg": "this is generally used by large us banks.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "pr\u00e4sident obama unterst\u00fctzt den vorschlag ebenfalls.",
+    "true_trg": "president barack obama also backs the proposal.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "zuvor haben viele speere verwendet, um sich zu verteidigen.",
+    "true_trg": "previously many used spears to defend themselves.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "schrieb lanzmann.",
+    "true_trg": "lanzmann wrote.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wir waren von diesem ereignis entsetzt und best\u00fcrzt.",
+    "true_trg": "we were appalled and shocked by the incident.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das ist wirklich sehr besch\u00e4mend.",
+    "true_trg": "it is in itself a great shame.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das bedarf keiner erkl\u00e4rung.",
+    "true_trg": "that needs no explanation.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es f\u00fcgt hinzu, dass die l\u00e4ndervorwahl nun hinzugef\u00fcgt wurde.",
+    "true_trg": "it adds that the code was now added.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "zeugen gesucht: getr\u00e4nkemarkt in waldbr\u00f6l \u00fcberfallen",
+    "true_trg": "witnesses wanted: drinks cash-and-carry in waldbr\u00f6l raided[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wieviel geld erbeutet wurde, teilt die polizei nicht mit.",
+    "true_trg": "the police did not report how much money had been stolen.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "nagold: spiel und spa\u00df bei sommerfreizeit",
+    "true_trg": "nagold: fun and games at the summer fete[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mehrere ganztagesausfl\u00fcge standen auf dem programm.",
+    "true_trg": "there were several day trips on the agenda.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "zum einen ging es nach bretten mit dem besuch des streichelzoos.",
+    "true_trg": "one trip saw the group head to bretten to visit the petting zoo.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der dritte ausflug f\u00fchrte nach pforzheim.",
+    "true_trg": "the third trip took the group to pforzheim.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "haigerloch: pilgern zur pforte der barmherzigkeit",
+    "true_trg": "haigerloch: pilgrims at the gates of mercy[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "gemeinsam wurden vier etappen bew\u00e4ltigt.",
+    "true_trg": "they covered four stages together.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "weiter ging es am zweiten tag \u00fcber furtwangen nach g\u00fctenbach.",
+    "true_trg": "the second day saw them head towards g\u00fctenbach, via furtwangen.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mit einem kleinen impuls wurde hier gott gedankt.",
+    "true_trg": "a brief moment was taken to thank god.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "nachmittags ging es per bahn zur\u00fcck nach horb.",
+    "true_trg": "in the afternoon they took the train back to horb.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie taten dies rechtzeitig als hindes auftauchte.",
+    "true_trg": "they did so just in time as hindes emerged.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "und das britische trio gewann das duell mit gold.",
+    "true_trg": "and the british trio won the duel for gold.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es war einfach unglaublich.",
+    "true_trg": "it was just incredible.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es gibt keine bessere art dies zu gewinnen.",
+    "true_trg": "theres no better way to win it.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wir sind in den letzten drei monaten als team zusammengekommen.",
+    "true_trg": "we all as a team came together in the last three months.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das k\u00e4me der von hoy gleich.",
+    "true_trg": "that would be the same as hoys.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das team-ereignis ist immer am besten.",
+    "true_trg": "the team event is always the best.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "man kann es mit seinen kollegen gewinnen.",
+    "true_trg": "you get to win it with your mates.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "es f\u00fchlt sich etwas einsam an, alleine zu gewinnen.",
+    "true_trg": "its a bit lonely winning on your own to be honest.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie kamen in 3:51,942 am ziel an.",
+    "true_trg": "they finished in 3:51.943.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "eine f\u00fcr 20 jahre festgelegte subvention l\u00e4uft im november aus.",
+    "true_trg": "a 20-year fixed subsidy expires in november.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "und f\u00fcr uns als stromerzeuger w\u00e4re das nicht gut, sagte er.",
+    "true_trg": "and as a generator that wouldnt be good for us, he said.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "nat\u00fcrlich gef\u00e4llt jenners erfolg nicht jedem.",
+    "true_trg": "of course, not everyone is pleased about jenners success.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "kendall jenner ist auf dem cover der septemberausgabe der vogue.",
+    "true_trg": "kendall jenner is on the cover of the september issue of vogue.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie ist im wahrsten sinne des wortes ein supermodel.",
+    "true_trg": "she is a supermodel, in the purest sense of the word.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie l\u00e4uft f\u00fcr marc jacobs.",
+    "true_trg": "shes walking for marc jacobs.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie macht werbung f\u00fcr ihre grundierung von estee lauder.",
+    "true_trg": "shes selling you estee lauder foundation.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "gemeinderechtszentren weisen j\u00e4hrlich 160.000 leute ab",
+    "true_trg": "community legal centres turn away 160,000 people a year[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "versuche, philip zu kontaktieren schlugen ebenso fehl.",
+    "true_trg": "attempts to reach phillip were unsuccessful.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der dritte platz ist zwischen der linken und der afd umstritten.",
+    "true_trg": "the left and the afd will fight over third place.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "nokia 9000 communicator: das erste smartphone",
+    "true_trg": "nokia 9000 communicator: the first smartphone[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "im gegenteil, es war ziemlich klobig.",
+    "true_trg": "indeed, it was quite bulky.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "vor 20 jahren jedoch war der communicator eine sensation.",
+    "true_trg": "however, 20 years ago, the communicator sparked a sensation.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ziemlich stolz war der preis: 2700 d-mark, also etwa 1400 euro.",
+    "true_trg": "the price was fairly high: 2700 deutschmarks, around 1400 euros.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "seitdem ist alles anders.",
+    "true_trg": "today, everything has changed.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das sagen haben nun apple und asiatische anbieter wie samsung.",
+    "true_trg": "apple, and asian providers such as samsung, now hold sway.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "england muss den olympischen geist lenken und heathrow erweitern",
+    "true_trg": "britain must channel the olympic spirit and expand heathrow[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das opfer lag mitten in der nacht auf der autobahn.",
+    "true_trg": "the victim was lying on the motorway in the middle of the night.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie verstarb noch vor ort.",
+    "true_trg": "she died at the scene.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "war ein zusammensto\u00df vermeidbar?",
+    "true_trg": "was it possible to avoid impact?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "nasa klimamodell: venus war einst bewohnbar",
+    "true_trg": "nasa climate model: venus was once habitable[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das modell beleuchtete auch die topographie der fr\u00fchen venus.",
+    "true_trg": "the model also looked at the topography of early venus.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "patrick roy tritt als trainer der avalanche zur\u00fcck",
+    "true_trg": "patrick roy resigns as avalanche coach[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "diese bedingungen werden momentan nicht erf\u00fcllt.",
+    "true_trg": "these conditions are not currently met.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die nordsee ist f\u00fcr die regionale wirtschaft wichtig, sagte er.",
+    "true_trg": "the north sea, he said, is vital for the regional economy.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie drehen sich jetzt am schnellsten.",
+    "true_trg": "theyre spinning as fast as they ever will.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ein umstrittener baseball-star tritt ab",
+    "true_trg": "a controversial baseball star steps down[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ich liebe dieses spiel und dieses team.",
+    "true_trg": "i love this game and this team.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "auch seine abschieds-tage verlaufen nicht ger\u00e4uschlos.",
+    "true_trg": "even his final days didnt go off without a bang.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mein job beinhaltet keine abschieds-tour.",
+    "true_trg": "my job isnt about a retirement tour.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "eine erwischte athletin h\u00e4tte fast eine medaille gewonnen.",
+    "true_trg": "one now-banned athlete had almost won a medal.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sun yang pinkelt lila.",
+    "true_trg": "sun yangs pee is purple.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "datenklau: so perfide erpressen hacker ihr l\u00f6segeld",
+    "true_trg": "data theft: this is how perfidiously hackers extort ransom money[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dann entdeckten die t\u00e4ter erpressungs-software f\u00fcr sich.",
+    "true_trg": "then perpetrators discovered extortion software.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wir leben in einer dienstleistungswirtschaft.",
+    "true_trg": "we live in a service economy.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die bezahlung erfolgt pro infiziertem rechner.",
+    "true_trg": "theres a payment made for every computer infected.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dementsprechend verfolgen die t\u00e4ter bereits neue strategien.",
+    "true_trg": "as a result, perpetrators are already trying out new strategies.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "einer f\u00fcr alle f\u00e4lle",
+    "true_trg": "something for every situation[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "honda hr-v ist flexibel und alltagstauglich",
+    "true_trg": "honda hr-v is practical and perfect for everyday use[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "er d\u00fcrfte seine arbeit allerdings etwas leiser verrichten.",
+    "true_trg": "however, it could certainly do its work a bit more quietly.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "erfreulich ist der alltagsverbrauch von 4,7 l/100 km.",
+    "true_trg": "everyday consumption of 4.7 l/100 km was pleasing.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ein allradantrieb wird nicht angeboten.",
+    "true_trg": "all-wheel drive is not available.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die lenkung d\u00fcrfte aber etwas direkter sein.",
+    "true_trg": "the steering could be a bit more direct, however.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sehr zuverl\u00e4ssig arbeitet der fernlichtassistent.",
+    "true_trg": "the high-beam assistant system is very reliable.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die motoren erf\u00fcllen die euro-6-abgasnorm.",
+    "true_trg": "the motors comply with euro 6 emissions standards.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "airline haftet nicht: sturz auf fluggastbr\u00fccke",
+    "true_trg": "airline is not liable: fall on passenger boarding bridge[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der kl\u00e4ger hatte sich bei dem sturz eine kniescheibe gebrochen.",
+    "true_trg": "the claimant had broken a kneecap in the fall.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "krankheitsfall: wann bezahlt der veranstalter",
+    "true_trg": "when do organisers pay if illness strikes?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie verbrachte fast den gesamten urlaub im zimmer.",
+    "true_trg": "they spent almost all their holiday in their room.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "vor gericht hatten die kl\u00e4ger keinen erfolg.",
+    "true_trg": "the claimants had no luck in court.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "von 691 g\u00e4sten waren nur 38 erkrankt.",
+    "true_trg": "only 38 of 691 guests fell ill.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "diesen triumph werden wir den terroristen nicht g\u00f6nnen.",
+    "true_trg": "we will not give the terrorists this victory.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "besserer verkehrsfluss auf dem autobahnzubringer",
+    "true_trg": "better flow of traffic on the motorway slip road[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "interkulturelle reise: kulturangebote f\u00fcr schulen",
+    "true_trg": "intercultural journey: cultural programme for schools[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das projekt interkulturellen reise geht weiter.",
+    "true_trg": "the intercultural journey project continues.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "unsere hoffnung liegt auf der nacht zum samstag.",
+    "true_trg": "we are pinning our hopes on friday night.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "erholsame nacht: tipps gegen schlafst\u00f6rungen",
+    "true_trg": "silent night: tips to fight sleep disorders[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das ist alles andere als erholsam.",
+    "true_trg": "this is anything but relaxing.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wie \u00e4u\u00dfern sich schlafprobleme oder schlafst\u00f6rungen?",
+    "true_trg": "how do sleep problems or sleep disorders manifest themselves?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "was steckt hinter schlafst\u00f6rungen?",
+    "true_trg": "what is behind sleep disorders?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die ursachen von schlafst\u00f6rungen sind komplex.",
+    "true_trg": "the causes of sleep disorders are complex.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das f\u00fchrt zu anspannung, und schlaf ist nicht mehr m\u00f6glich.",
+    "true_trg": "that causes tension, and it is impossible to sleep.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "ab wann sollte man mit schlafst\u00f6rungen zum arzt?",
+    "true_trg": "when should you see your doctor about sleep disorders?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "wer sollte ins schlaflabor, und was passiert da?",
+    "true_trg": "who should go to a sleep lab, and what happens there?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "auf die untersuchung vorbereiten muss man sich eigentlich nicht.",
+    "true_trg": "you dont have to prepare for the examination at all.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "man sollte den tag normal verbringen.",
+    "true_trg": "you should spend the day normally.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "nur bitte keinen mittagsschlaf machen, sagt fietze.",
+    "true_trg": "just - please dont take an afternoon nap, says fietze.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "nach dem verkabeln geht man zu seiner normalen zeit ins bett.",
+    "true_trg": "after being cabled up, you head to bed at your normal time.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "genau so sollte man es auch mit l\u00e4ndern halten.",
+    "true_trg": "this is exactly how it should be with countries.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "flughafen: bande von gep\u00e4ckdieben festgenommen",
+    "true_trg": "airport: a gang of luggage thieves are arrested[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "professionelle diebe am flughafen d\u00fcsseldorf",
+    "true_trg": "professional thieves at dusseldorf airport[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "dabei hatten sie insgesamt \u00fcber 15.000 euro erbeutet.",
+    "true_trg": "they had made more than 15,000 euros as a result.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "gewalt und zerst\u00f6rung kann ich absolut nicht guthei\u00dfen.",
+    "true_trg": "i absolutely cannot condone violence and destruction.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "aber was soll man denn machen, wenn einem nie jemand zuh\u00f6rt?",
+    "true_trg": "but what should you do when nobody listens to you?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "urbach: annika deuschle ist neue fl\u00fcchtlingsbeauftragte",
+    "true_trg": "urbach: annika deutscle is the new commissioner for refugees[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "au\u00dferdem ist sie sozialarbeiterin vor ort.",
+    "true_trg": "she will also work on-site as a social worker.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die 31-j\u00e4hrige ist seit rund sechs wochen dabei.",
+    "true_trg": "the 31-year-old has been in post for around six weeks.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie hat eine 50-prozent-stelle auf drei jahre befristet.",
+    "true_trg": "she has taken the 50% job for a fixed term of three years.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "bald stehen neue container in der wasenstra\u00dfe",
+    "true_trg": "new containers will soon be located in wasenstra\u00dfe[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die suche gestaltet sich seit einiger zeit als sehr schwierig.",
+    "true_trg": "the search has been very difficult for a while.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "de facto findet die verwaltung keine privaten wohnungen.",
+    "true_trg": "de facto, the administration cannot find any private homes.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "also werden bald neue container in der wasenstra\u00dfe aufgestellt.",
+    "true_trg": "consequently new containers will soon be located in wasenstra\u00dfe.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "doch nur mit wohnungen ist es nicht getan.",
+    "true_trg": "but homes alone will not do the trick.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "mehr pl\u00e4tze w\u00e4ren gut, berichtet regine kunde.",
+    "true_trg": "more jobs would be good, reports regine kunde.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das sei keine besch\u00e4ftigungstherapie.",
+    "true_trg": "this is not employment therapy.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "t\u00e4tigkeit meint aber nicht nur arbeit.",
+    "true_trg": "being active doesnt just mean working.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "der tag brauche eine feste struktur, sagen deuschle und kunde.",
+    "true_trg": "the day needs a fixed structure, deuschle and kunde say.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die menschen m\u00fcssten ein zugeh\u00f6rigkeitsgef\u00fchl entwickeln.",
+    "true_trg": "people need to develop a sense of belonging.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "professionelle kurse sind rar.",
+    "true_trg": "professional courses are rare.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die lange dauer der verfahren sei ein problem.",
+    "true_trg": "the length of time that processes take is a problem.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die deutliche mehrheit sei motiviert.",
+    "true_trg": "the clear majority are motivated.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das alles sei schon eine mammutaufgabe.",
+    "true_trg": "all told, this is a mammoth task.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sensibilisiert seien die helfer aber schon.",
+    "true_trg": "however, volunteers are already aware of this.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "diese vorf\u00e4lle seien auch thema bei den fl\u00fcchtlingen.",
+    "true_trg": "these issues are already discussed by the refugees.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "viele w\u00fcrden gerne in urbach bleiben.",
+    "true_trg": "many of them would like to stay in urbach.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "braucht deutschland eine obergrenze?",
+    "true_trg": "does germany need a cap?[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "diese frage klar zu beantworten, scheut sich die politik.",
+    "true_trg": "politicians shy away from answering this question.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "eigentlich ist es unfair, sie helfern vor ort zu stellen.",
+    "true_trg": "it is unfair to show them volunteers on site.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "schorndorf: einbrecher mit hubschrauber gesucht",
+    "true_trg": "schorndorf: search for intruders made by helicopter[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "sie fl\u00fcchteten richtung innenstadt.",
+    "true_trg": "they were heading towards the centre of town.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "die fahndung verlief ohne erfolg.",
+    "true_trg": "without success.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "danach flohen sie.",
+    "true_trg": "then they fled.[EOS]",
+    "generated_trg": "..............................................................."
+  },
+  {
+    "src": "das asiengesch\u00e4ft wuchs \u00fcberproportional um 17,1 prozent.",
+    "true_trg": "its business in asia grew disproportionately, by 17.1 percent.[EOS]",
+    "generated_trg": "..............................................................."
+  }
+]

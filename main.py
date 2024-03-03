@@ -71,7 +71,7 @@ if __name__ == "__main__":
     test_dataset = TranslationDataset('test')
     validation_dataset = TranslationDataset('validation')
 
-    train_subset = Subset(train_dataset, range(0, 2000000))
+    train_subset = Subset(train_dataset, range(0, 850000))
 
     epochs=5
     batch_size=256
@@ -83,7 +83,7 @@ if __name__ == "__main__":
     num_encoder_layers=4
     dim_feedforward=64
     dropout=0.1
-    warmup_steps=3900 # Ratio (0.1) * ((Samples (2000000) / Batch-Size (256)) * epochs (5))
+    warmup_steps=1600 # Ratio (0.1) * ((Samples (850000) / Batch-Size (256)) * epochs (5))
     src_pad_idx=0
     trg_eos_idx=1
     trg_sos_idx=2
