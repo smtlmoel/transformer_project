@@ -47,6 +47,7 @@ class TransformerTrainer(nn.Module):
                  num_encoder_layers: int,
                  dim_feedforward: int,
                  dropout: float,
+                 warmup_steps: int,
                  src_pad_idx: int) -> None:
         super().__init__()
 
@@ -65,6 +66,8 @@ class TransformerTrainer(nn.Module):
         self.num_encoder_layers = num_encoder_layers
         self.dim_feedforward = dim_feedforward
         self.dropout = dropout
+
+        self.warmup_steps = warmup_steps
 
         self.src_pad_idx = src_pad_idx
 
@@ -91,7 +94,7 @@ class TransformerTrainer(nn.Module):
    
         self.ce_loss = nn.CrossEntropyLoss(ignore_index=self.src_pad_idx)
         self.optimizer = AdamW(optimizer_parameters)
-        self.scheduler = TransformerLRScheduler(optimizer=self.optimizer, d_model=self.d_model, warmup_steps=4000)
+        self.scheduler = TransformerLRScheduler(optimizer=self.optimizer, d_model=self.d_model, warmup_steps=self.warmup_steps)
 
     def _make_masks(self, src_input, trg_input):
         """
@@ -118,9 +121,9 @@ class TransformerTrainer(nn.Module):
         """
         self.model.train()
         batch_loss = []
+
         pbar = tqdm(enumerate(self.train_dataloader), leave=False)
         for i, batch in pbar:
-
             msg = (f'Training: {i+1}/{len(self.train_dataloader)}')
             pbar.set_description(msg)
 
@@ -179,7 +182,7 @@ class TransformerTrainer(nn.Module):
             model=self.model.state_dict(),
             optim=self.optimizer.state_dict(),
             epoch=self.epoch,
-        ), Path(f'{self.ckpt_path}checkpoint_epoch={self.epoch}.pth'))
+        ), Path(f'{self.ckpt_path}checkpoint_epoch={self.epoch+1}.pth'))
 
     def load(self, checkpoint_name):
         """Load the model."""
@@ -206,8 +209,8 @@ class TransformerTrainer(nn.Module):
         if resume and checkpoint_name is not None:
             self.load()
 
-        dict_log = {"train_loss": [], "val_loss": []}
         best_loss = float('inf')
+        dict_log = {"train_loss": [], "val_loss": [], "lr_steps": [], "best_loss": best_loss}
 
         pbar = tqdm(range(num_epochs))
         for epoch in pbar:
@@ -226,6 +229,7 @@ class TransformerTrainer(nn.Module):
             if val_loss < best_loss:
                 self.save()
                 best_loss = val_loss
+                dict_log["best_loss"] = best_loss
                 state_dict = {
                     'model_state_dict': self.model.state_dict(),
                     'optim_state_dict': self.optimizer.state_dict(),
